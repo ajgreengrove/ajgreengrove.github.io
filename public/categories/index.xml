@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on A. J. Greengrove&#39;s Site</title>
-    <link>https://www.ajgreengrove.com/categories/</link>
+    <link>http://localhost:43963/categories/</link>
     <description>Recent content in Categories on A. J. Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://www.ajgreengrove.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:43963/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

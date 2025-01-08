@@ -2,3 +2,10 @@ baseURL = 'https://www.ajgreengrove.com/'
 languageCode = 'en-us'
 title = "A. J. Greengrove's Site"
 theme = 'ananke'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[markup.goldmark.renderer]
+  unsafe = true
