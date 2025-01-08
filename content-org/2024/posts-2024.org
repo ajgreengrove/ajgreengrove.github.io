@@ -1,0 +1,33 @@
+#+HUGO_BASE_DIR: ../../
+
+#+bibliography: ../bibliography.json
+#+cite_export: csl
+
+* DONE 2024 bundle dir
+:PROPERTIES:
+:EXPORT_HUGO_BUNDLE: 2024
+:END:
+
+** DONE Wherever the Wind Takes Me - Album Release!
+:PROPERTIES:
+:EXPORT_DATE: 2024-11-26T20:55:00+03:00
+:EXPORT_HUGO_BUNDLE: wherever-the-wind-takes-me
+:EXPORT_FILE_NAME: index
+:END:
+
+#+name: a-j-greengrove-profile-picture
+#+caption: A. J. Greengrove Profile Picture
+[[file:wherever-the-wind-takes-me/profile-pic-rectangle.jpg]]
+
+#+name: wherever-the-wind-takes-me-album-cover-by-konsta-airisto
+#+caption: Wherever the Wind Takes Me - album cover by Konsta Airisto
+[[file:wherever-the-wind-takes-me/cover-res.jpg]]
+
+Wherever the Wind Takes Me - album released!
+I'll start with sharing links today.
+
+- music to stream: https://open.spotify.com/artist/7aZOkC5lrC0LuDRoudNsFs
+- albums to browse: https://ajgreengrove.bandcamp.com
+- videos to watch: https://youtube.com/@A.J.Greengrove
+- blog to read: https://www.ajgreengrove.com
+- news in Mastodon: https://zirk.us/@ajgreengrove
