@@ -1,7 +1,14 @@
 +++
-title = "A. J. Greengrove's Site"
-date = 2022-08-28T01:34:52+03:00
+title = "A. J. Greengrove's Homepage"
 draft = false
+featured_image = "/hero.jpg"
 +++
 
-Hello! I am A. J. Greengrove, and this is my website.
+Welcome to A. J. Greengrove's site:
+you've landed on the homepage!
+
+Here's a link to my Mastodon account so that they know I'm linking back:
+
+{{< mastodon-verify >}}
+
+Lo and behold, below: please find my latest posts!

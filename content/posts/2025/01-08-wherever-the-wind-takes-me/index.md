@@ -1,19 +1,22 @@
 +++
 title = "Wherever The Wind Takes Me"
-date = 2025-01-08T22:32:00+03:00
+author = ["A. J. Greengrove"]
+date = 2025-01-08T22:32:00+02:00
 draft = false
+featured_image = "org-babel-lilypond-exports/feature-cover-thumbnail-2025-01-08.png"
 +++
+
+Here's a video of me performing the piece:
 
 {{< youtube t-HdAvsmOeM >}}
 
-[(Consider supporting me via BandCamp)](https://ajgreengrove.bandcamp.com/)
+Consider supporting me via BandCamp:
 
-Is it the piece that started it all?
-I can't remember how many pieces I had improvised this far,
-but obviously this one is shot with my worse, i.e. 1st webcam.
+{{< support-me-via-bandcamp >}}
 
-Some music theory notes to myself and others:
-in retrospect,
+{{< figure src="org-babel-lilypond-exports/feature-cover-thumbnail-2025-01-08.png" alt="The motif of the piece in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>Motif of Wherever the Wind Takes Me" >}}
+
+In retrospect,
 I hear the piece as modal in nature
 specifically because of the accidentals in certain harmonies.
 I might refer to some of the sequences later, so here they are:

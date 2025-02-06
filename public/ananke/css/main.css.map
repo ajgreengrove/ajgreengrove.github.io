@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/abeodyss/Documents/hugo/ajgreengrove.com",
+	"sourceRoot": "/home/ajg/Documents/hugo/ajgreengrove.com",
 	"sources": [
 		"ananke/css/main.css"
 	],
