@@ -1,6 +1,5 @@
 baseURL = 'https://www.ajgreengrove.com/'
 languageCode = 'en-us'
-theme = 'ananke'
 title = "A J Greengrove's Site"
 
 [taxonomies]
@@ -46,3 +45,10 @@ title = "A J Greengrove's Site"
     name = "Tags"
     url = "/tags"
     weight = 7
+
+[module]
+  [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    ignoreImports = false
+    path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
