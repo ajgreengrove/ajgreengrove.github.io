@@ -1,33 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A. J. Greengrove&#39;s Homepage on A. J. Greengrove&#39;s Site</title>
+    <title>Home on A J Greengrove&#39;s Site</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in A. J. Greengrove&#39;s Homepage on A. J. Greengrove&#39;s Site</description>
+    <description>Recent content in Home on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 18:12:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To the Land of No Return</title>
+      <link>http://localhost:1313/posts/2025/tothelandofnoreturn/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/tothelandofnoreturn/</guid>
+      <description>&lt;p&gt;To the Land of No Return:&#xA;A postlude that opens with a minor romanesca and reflects on the opening track.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When Shadows Take Over</title>
+      <link>http://localhost:1313/posts/2025/whenshadowstakeover/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/whenshadowstakeover/</guid>
+      <description>&lt;p&gt;When Shadows Take Over:&#xA;the final &amp;ldquo;let&amp;rsquo;s explore dark, minor modal mixture&amp;rdquo; of this album.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Goblins Lurking in the Darkness</title>
+      <link>http://localhost:1313/posts/2025/goblinslurkinginthedarkness/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/goblinslurkinginthedarkness/</guid>
+      <description>&lt;p&gt;Goblins Lurking in the Darkness:&#xA;the most blatant dungeon synth parody of this album.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Angels Carried Me Away</title>
+      <link>http://localhost:1313/posts/2025/angelscarriedmeaway/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/angelscarriedmeaway/</guid>
+      <description>&lt;p&gt;Angels Carried Me Away:&#xA;choral style improvisation with the guitar = pain in the ass.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crystalline Chaotic Caves</title>
+      <link>http://localhost:1313/posts/2025/crystallinechaoticcaves/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/crystallinechaoticcaves/</guid>
+      <description>&lt;p&gt;Crystalline Chaotic Caves:&#xA;textural exploration, F.Sor etouffez, perhaps a dungeon synth parody or a game cave theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windless Deserted Island</title>
+      <link>http://localhost:1313/posts/2025/windlessdesertedisland/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/windlessdesertedisland/</guid>
+      <description>&lt;p&gt;Windless Deserted Island:&#xA;&amp;ldquo;a first inversion harmony, or a phrygian clausula tenorizans?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Strong Currents in the Unknown Waters</title>
+      <link>http://localhost:1313/posts/2025/strongcurrentsintheunknownwaters/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/strongcurrentsintheunknownwaters/</guid>
+      <description>&lt;p&gt;Strong Currents in the Unknown Waters:&#xA;an arpeggio interlude, this time with dark, minor modal mixture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>It&#39;s Time to Set The Sails</title>
+      <link>http://localhost:1313/posts/2025/itstimetosetthesails/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/itstimetosetthesails/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s Time to Set The Sails:&#xA;I ripped of an unknown composer&amp;rsquo;s &amp;ldquo;Forest Theme&amp;rdquo; from Terra Incognita, a Net Yaroze demo game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Goodbye Faraway Peaceful Town</title>
+      <link>http://localhost:1313/posts/2025/goodbyefarawaypeacefultown/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/goodbyefarawaypeacefultown/</guid>
+      <description>&lt;p&gt;Goodbye Faraway Peaceful Town:&#xA;instead of a shepherd in Arcadia, I associate romanesca with town themes (damn gamer).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Revelations in Ancient Tombs</title>
+      <link>http://localhost:1313/posts/2025/revelationsinancienttombs/</link>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/revelationsinancienttombs/</guid>
+      <description>&lt;p&gt;Revelations in Ancient Tombs:&#xA;what happens when you apply &amp;ldquo;chroma&amp;rdquo;, Gesualdo-style, on a romanesca?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prelude to a Foreboding</title>
+      <link>http://localhost:1313/posts/2025/preludetoaforeboding/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/preludetoaforeboding/</guid>
+      <description>&lt;p&gt;Prelude to a Foreboding:&#xA;The static use of the arpeggio motive creates tension; &amp;ldquo;trailer music&amp;rdquo; vibes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autumn Moon Dance</title>
+      <link>http://localhost:1313/posts/2025/autumnmoondance/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/autumnmoondance/</guid>
+      <description>&lt;p&gt;Autumn Moon Dance:&#xA;This dance-like motive unfolds in a so-called minor-variant romanesca.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Doppelganger Takes Over</title>
+      <link>http://localhost:1313/posts/2025/doppelgangertakesover/</link>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/doppelgangertakesover/</guid>
+      <description>&lt;p&gt;Doppelganger Takes Over:&#xA;The motif is one of my favorite fantasy tropes, albeit rare: it sounds quite dark.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Twilight in the Marshlands</title>
+      <link>http://localhost:1313/posts/2025/twilightinthemarshlands/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/twilightinthemarshlands/</guid>
+      <description>&lt;p&gt;Twilight in the Marshlands:&#xA;This motif, I feel is rather soundtrack-like, serious and heavy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Waltz with Me Moose Giants</title>
+      <link>http://localhost:1313/posts/2025/waltzwithmemoosegiants/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/waltzwithmemoosegiants/</guid>
+      <description>&lt;p&gt;Waltz with Me Moose Giants:&#xA;a chameleon motive, very useful for weaving counterpoint.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fireflies Circling in the Rain</title>
+      <link>http://localhost:1313/posts/2025/firefliescirclingintherain/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/firefliescirclingintherain/</guid>
+      <description>&lt;p&gt;Fireflies Circling in the Rain:&#xA;The flourishing motif changes along with the underlying modes or scales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chilly Nights, Quiet Winds</title>
+      <link>http://localhost:1313/posts/2025/chillynightsquietwinds/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/chillynightsquietwinds/</guid>
+      <description>&lt;p&gt;Chilly Nights, Quiet Winds:&#xA;a meandering motive searchs out and seeks, perhaps for a warmer breeze.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>False Relations in an English Town</title>
+      <link>http://localhost:1313/posts/2025/falserelationsinanenglishtown/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/falserelationsinanenglishtown/</guid>
+      <description>&lt;p&gt;False Relations in an English Town:&#xA;&amp;ldquo;Dalza&amp;rsquo;s basse danse meets the english cadence&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Wherever The Wind Takes Me</title>
       <link>http://localhost:1313/posts/2025/01-08-wherever-the-wind-takes-me/</link>
       <pubDate>Wed, 08 Jan 2025 22:32:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/2025/01-08-wherever-the-wind-takes-me/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a video of me performing the piece:&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/t-HdAvsmOeM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Consider supporting me via BandCamp:&lt;/p&gt;&#xA;&lt;iframe scrolling=&#34;no&#34; style=&#34;border: 0;width: 100%;height: 50px;&#34; src=&#34;https://bandcamp.com/band_follow_button_deluxe/3121264827&#34;&gt;&lt;/iframe&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2025/01-08-wherever-the-wind-takes-me/org-babel-lilypond-exports/feature-cover-thumbnail-2025-01-08.png&#34;&#xA;    alt=&#34;The motif of the piece in musical notation.&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;&lt;span class=&#34;figure-number&#34;&gt;Figure 1: &lt;/span&gt;Motif of Wherever the Wind Takes Me&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;In retrospect,&#xA;I hear the piece as modal in nature&#xA;specifically because of the accidentals in certain harmonies.&#xA;I might refer to some of the sequences later, so here they are:&#xA;a 2-up-3-down sequence closes the first half of the piece;&#xA;a descending-fifths sequence &amp;ldquo;masked&amp;rdquo; with&#xA;a smooth descending bass line in the latter half;&#xA;and also, I seem to have played cascading romanescas&#xA;(falling bass variants) in the latter half.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Wherever The Wind Takes Me:&#xA;arpeggiation of a single motive, resulting in a deceptively simple prelude.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Wherever the Wind Takes Me - Album Release!</title>
+      <title>Wherever the Wind Takes Me - Album Release</title>
       <link>http://localhost:1313/posts/2024/wherever-the-wind-takes-me/</link>
       <pubDate>Tue, 26 Nov 2024 20:55:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/2024/wherever-the-wind-takes-me/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ajgreengrove.bandcamp.com/album/wherever-the-wind-takes-me?external_follow=true&#34;&gt;Wherever the Wind Takes Me: Album available in BandCamp!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a id=&#34;figure--wherever-the-wind-takes-me-album-cover-by-konsta-airisto&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2024/wherever-the-wind-takes-me/images/cover-res.jpg&#34;&#xA;    alt=&#34;A river surrounded by trees and somewhat cloudy blue sky above.&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;&lt;span class=&#34;figure-number&#34;&gt;Figure 1: &lt;/span&gt;Wherever the Wind Takes Me - album cover by Konsta Airisto&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Wherever the Wind Takes Me - album released!&#xA;I&amp;rsquo;ll start with sharing links today.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;music to stream: &lt;a href=&#34;https://open.spotify.com/artist/7aZOkC5lrC0LuDRoudNsFs&#34;&gt;https://open.spotify.com/artist/7aZOkC5lrC0LuDRoudNsFs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;albums to browse: &lt;a href=&#34;https://ajgreengrove.bandcamp.com&#34;&gt;https://ajgreengrove.bandcamp.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;videos to watch: &lt;a href=&#34;https://youtube.com/@A.J.Greengrove&#34;&gt;https://youtube.com/@A.J.Greengrove&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;blog to read: &lt;a href=&#34;https://www.ajgreengrove.com&#34;&gt;https://www.ajgreengrove.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;news in Mastodon: &lt;a href=&#34;https://zirk.us/@ajgreengrove&#34;&gt;https://zirk.us/@ajgreengrove&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&amp;ldquo;..the overall sound ranges from early music pastiches&#xA;to soundtrack-like music, or fantasias if you will.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Test Post. - For Blog Functionalities</title>
+      <title>A Test Post: Blog Functionalities</title>
       <link>http://localhost:1313/posts/2022/08-28-testpost/</link>
       <pubDate>Sun, 28 Aug 2022 01:34:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/2022/08-28-testpost/</guid>
-      <description>&lt;p&gt;This is the content of the test post.&#xA;That&amp;rsquo;s how it originally read.&#xA;However, I later thought,&#xA;it is better suited to demonstrate some functionalities&#xA;and technical aspects of the site.&#xA;Here I rendered a lilypond code block&#xA;(emacs babel) into musical notation:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a id=&#34;figure--some-notes-a-lilypond-babel-test&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2022/08-28-testpost/org-babel-lilypond-exports/feature-cover-thumbnail-2022-08-28.png&#34;&#xA;    alt=&#34;A picture of musical notation showcasing the output of lilypond babel.&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;&lt;span class=&#34;figure-number&#34;&gt;Figure 1: &lt;/span&gt;Some notes: a lilypond babel test.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-lilypond&#34; data-lang=&#34;lilypond&#34;&gt;\version &amp;#34;2.24.4&amp;#34;&#xA;\language &amp;#34;english&amp;#34;&#xA;\pointAndClickOff&#xA;\header {&#xA;  piece = &amp;#34;Some notes&amp;#34;&#xA;  tagline = &amp;#34;&amp;#34;&#xA;}&#xA;\new Staff \with {&#xA;  instrumentName = &amp;#34;Some instr.&amp;#34;&#xA;} \relative c&amp;#39; {&#xA;  c8 d e f g a b c&#xA;  c,8 d e f g a b c&#xA;  c,8 d e f g a b c&#xA;  \break&#xA;  c,8 d e f g a b c&#xA;  c,8 d e f g a b c&#xA;  c,8 d e f g a b c&#xA;  \break&#xA;  c,8 d e f g a b c&#xA;  c,8 d e f g a b c&#xA;  c,8 d e f g a b c&#xA;}&#xA;#(set-default-paper-size &amp;#39;(cons (* 200 mm) (* 60 mm)))&#xA;#(ly:set-option &amp;#39;resolution 101)&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;p&gt;This post tests some functionalities and technical aspects of the site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sat, 27 Aug 2022 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Whether you want to discuss&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;composing custom scores,&lt;/li&gt;&#xA;&lt;li&gt;recording guitar,&lt;/li&gt;&#xA;&lt;li&gt;coaching,&lt;/li&gt;&#xA;&lt;li&gt;or have other questions,&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:contact@ajgreengrove.com&#34;&gt;write me and let&amp;rsquo;s have a conversation!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 26 Aug 2022 12:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/profile-latest.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;A J Greengrove is a musician in the early music sense:&#xA;one who plays, improvises and composes both on-the-spot and with longer processes.&#xA;More experiments with early music concepts to come.&#xA;I play a nylon-stringed Godin guitar&#xA;and compose utilizing the powerful csound audio domain-specific programming language.&lt;/p&gt;&#xA;&lt;p&gt;For all my creations under the &amp;ldquo;A J Greengrove&amp;rdquo; moniker from latest to earliest, see&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/categories/works/&#34;&gt;Works&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The actual university degrees I did (highest-level listed only):&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
