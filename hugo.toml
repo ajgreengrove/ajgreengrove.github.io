@@ -1,7 +1,7 @@
 baseURL = 'https://www.ajgreengrove.com/'
 languageCode = 'en-us'
-title = "A. J. Greengrove's Site"
 theme = 'ananke'
+title = "A J Greengrove's Site"
 
 [taxonomies]
   category = 'categories'
@@ -9,3 +9,40 @@ theme = 'ananke'
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "Home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "works"
+    name = "Works"
+    url = "/categories/works"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 4
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 5
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories"
+    weight = 6
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 7

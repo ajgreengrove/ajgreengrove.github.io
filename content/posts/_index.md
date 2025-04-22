@@ -1,9 +1,9 @@
 +++
 title = "Posts"
+date = 2022-08-28T01:34:00+03:00
 draft = false
-featured_image = "/hero.jpg"
+featured_image = "/album-cover-latest.jpg"
 +++
 
-This is the index page for the posts section:
-here you'll find a list of all written posts
+Here you'll find a list of all written posts
 in chronological order.
