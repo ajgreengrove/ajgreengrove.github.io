@@ -36,7 +36,7 @@ I unfold it as a descending-fifths sequence.
 If I may contrast the word "soft" with the word "dynamical",
 this time the bass acts in a more "dynamical" manner.
 Compare these to the 2-up-3-down sequence heard in
-[Wherever The Wind Takes Me](/posts/2025/whereverthewindtakesme) of in this same album,
+[Wherever The Wind Takes Me](/posts/2025/01-08-wherever-the-wind-takes-me) of in this same album,
 however, in that instance dorian modal harmony draws attention;
 I don't find it a typical example of the bass movement.
 My theory is the sequence works in adventurous sea themes, prove me wrong.

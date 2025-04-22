@@ -43,3 +43,5 @@ consider buying it in BandCamp to support my art):
 {{< bandcamp-player-track 1523599948 >}}
 
 Here's the recording session video of the piece:
+
+{{< youtube jGtOdWo97tQ >}}
