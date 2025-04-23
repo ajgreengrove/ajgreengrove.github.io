@@ -6,8 +6,15 @@
     <description>Recent content in Home on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 13:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gene Boggs - Eponymous (Featuring A J Greengrove) Album Release</title>
+      <link>http://localhost:1313/posts/2025/geneboggs-eponymous-featuringajgreengrove-albumrelease/</link>
+      <pubDate>Wed, 23 Apr 2025 13:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/geneboggs-eponymous-featuringajgreengrove-albumrelease/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Eponymous:&amp;rdquo; an almost unlikely combination of electronica and mellow guitars.&#xA;This album is officially available in: &lt;a href=&#34;https://songwhip.com/geneboggs/eponymous&#34;&gt;https://songwhip.com/geneboggs/eponymous&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>To the Land of No Return</title>
       <link>http://localhost:1313/posts/2025/tothelandofnoreturn/</link>
@@ -167,7 +174,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 26 Aug 2022 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/profile-latest.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;A J Greengrove is a musician in the early music sense:&#xA;one who plays, improvises and composes both on-the-spot and with longer processes.&#xA;More experiments with early music concepts to come.&#xA;I play a nylon-stringed Godin guitar&#xA;and compose utilizing the powerful csound audio domain-specific programming language.&lt;/p&gt;&#xA;&lt;p&gt;For all my creations under the &amp;ldquo;A J Greengrove&amp;rdquo; moniker from latest to earliest, see&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/categories/works/&#34;&gt;Works&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The actual university degrees I did (highest-level listed only):&lt;/p&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/profile-latest.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;A J Greengrove is a musician in the early music sense:&#xA;one who plays, improvises and composes both on-the-spot and with longer processes.&#xA;More experiments with early music concepts to come.&#xA;I play a nylon-stringed Godin guitar,&#xA;engrave scores in LilyPond,&#xA;and compose utilizing the powerful csound audio domain-specific programming language.&lt;/p&gt;&#xA;&lt;p&gt;For all my creations under the &amp;ldquo;A J Greengrove&amp;rdquo; moniker from latest to earliest, see&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/categories/works/&#34;&gt;Works&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The actual university degrees I&amp;rsquo;ve done (highest-level listed only):&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

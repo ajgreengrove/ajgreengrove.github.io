@@ -38,5 +38,6 @@ I will also upload recording session videos to this playlist:
 
 {{< youtube-playlists PLN2kCRRlVZAs8C_yKbhWIXf5nrnD9eTHf >}}
 
-I will link here a compilation video of all recording sessions
-once I've finished uploading them individually.
+Here's a compilation video of all recording sessions:
+
+{{< youtube fhJG9hxWo2A>}}
