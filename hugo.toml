@@ -1,11 +1,13 @@
 baseURL = 'https://www.ajgreengrove.com/'
 languageCode = 'en-us'
-title = "A. J. Greengrove's Site"
+summaryLength = 1
+title = "A J Greengrove's Site"
 theme = 'ananke'
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [taxonomies]
   category = 'categories'
   tag = 'tags'
 
-[markup.goldmark.renderer]
-  unsafe = true

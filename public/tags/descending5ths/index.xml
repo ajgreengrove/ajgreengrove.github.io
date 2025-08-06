@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Descending5ths on A J Greengrove&#39;s Site</title>
+    <link>http://localhost:1313/tags/descending5ths/</link>
+    <description>Recent content in Descending5ths on A J Greengrove&#39;s Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/descending5ths/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autumn Moon Dance</title>
+      <link>http://localhost:1313/posts/2025/autumnmoondance/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/autumnmoondance/</guid>
+      <description>&lt;p&gt;Autumn Moon Dance:&#xA;This dance-like motive unfolds&#xA;in a &amp;ldquo;minor-variant romanesca&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Waltz with Me Moose Giants</title>
+      <link>http://localhost:1313/posts/2025/waltzwithmemoosegiants/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/waltzwithmemoosegiants/</guid>
+      <description>&lt;p&gt;Waltz with Me Moose Giants:&#xA;a chameleon motive, very useful for weaving counterpoint.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chilly Nights, Quiet Winds</title>
+      <link>http://localhost:1313/posts/2025/chillynightsquietwinds/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/chillynightsquietwinds/</guid>
+      <description>&lt;p&gt;Chilly Nights, Quiet Winds:&#xA;a meandering motive searchs out and seeks,&#xA;perhaps for a warmer breeze.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

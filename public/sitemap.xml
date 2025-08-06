@@ -2,7 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-10T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/goodbyefarawaypeacefultown/</loc>
+    <lastmod>2025-04-10T00:00:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-10T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/romanesca/</loc>
+    <lastmod>2025-04-10T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-10T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/whereverthewindtakesme/</loc>
+    <lastmod>2025-04-10T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/revelationsinancienttombs/</loc>
+    <lastmod>2025-04-09T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/preludetoaforeboding/</loc>
+    <lastmod>2025-04-08T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/autumnmoondance/</loc>
+    <lastmod>2025-04-07T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/convergingcadence/</loc>
+    <lastmod>2025-04-07T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/descending5ths/</loc>
+    <lastmod>2025-04-07T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/falserelation/</loc>
+    <lastmod>2025-04-07T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/7-6suspensionchain/</loc>
+    <lastmod>2025-04-04T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/doppelgangertakesover/</loc>
+    <lastmod>2025-04-04T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/indugio/</loc>
+    <lastmod>2025-04-04T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/twilightinthemarshlands/</loc>
+    <lastmod>2025-04-04T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/waltzwithmemoosegiants/</loc>
+    <lastmod>2025-04-04T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/firefliescirclingintherain/</loc>
+    <lastmod>2025-04-03T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/chillynightsquietwinds/</loc>
+    <lastmod>2025-04-02T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/falserelationsinanenglishtown/</loc>
+    <lastmod>2025-04-01T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/2up3down/</loc>
+    <lastmod>2025-01-08T22:32:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fonte/</loc>
     <lastmod>2025-01-08T22:32:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025/01-08-wherever-the-wind-takes-me/</loc>
@@ -11,14 +74,13 @@
     <loc>http://localhost:1313/posts/2024/wherever-the-wind-takes-me/</loc>
     <lastmod>2024-11-26T20:55:00+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/works/</loc>
+    <lastmod>2024-11-26T20:55:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2022/08-28-testpost/</loc>
     <lastmod>2022-08-28T01:34:52+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2022-08-28T01:34:52+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
