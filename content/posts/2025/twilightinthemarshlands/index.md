@@ -1,6 +1,6 @@
 +++
 title = "Twilight in the Marshlands"
-date = 2025-04-04T00:00:00+03:00
+date = 2025-04-05T00:00:00+03:00
 categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "2025/TwilightInTheMarshlands-feature.png"
@@ -22,7 +22,7 @@ some chromatic, some diatonic.
 Perhaps Michael Koch (En blanc et noir YouTube channel)
 could better explain some romantic schemata or compositional devices.
 
-To preview the track (then grab the album for "name your price" in Bandcamp):
+To preview the track (then go grab the album for "name your price in Bandcamp!):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=4070923881/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 Anyway, the 1:25 mark

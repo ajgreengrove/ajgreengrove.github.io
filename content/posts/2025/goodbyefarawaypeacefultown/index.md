@@ -10,7 +10,7 @@ tableofcontents = false
 
 Goodbye Faraway Peaceful Town:
 instead of a shepherd in Arcadia,
-I associate romanesca with town themes (damn gamer).
+I associate romanesca with town themes.
 
 {{< figure src="/2025/GoodbyeFarawayPeacefulTown-feature.png" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Goodbye Faraway Peaceful Town\" Motif" >}}
 
@@ -19,10 +19,10 @@ the latter half if in many repetitions the same as in Pachelbel’s canon.
 Later in the piece these latter halves tend
 to ride the descending-fifths sequence rollercoaster.
 
-To preview the track (then grab the album for "name your price" in Bandcamp):
+To preview the track (then go grab the album for "name your price in Bandcamp!):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=835945168/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
-In the 0:30 mark (see player below for playback)
+In the 0:30 mark
 the texture starts to sound quite galant.
 However, I do not understand what the hell
 is the purpose of the major 7th sonority

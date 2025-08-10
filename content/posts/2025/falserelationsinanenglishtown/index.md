@@ -19,7 +19,7 @@ Joan Ambrosio Dalza’s basse danses or pivas.
 However, the main gist was to test out a final cadence with false relation;
 also known as “english cadence” in renaissance music.
 
-To preview the track (then grab the album for "name your price" in Bandcamp):
+To preview the track (then go grab the album for "name your price in Bandcamp!):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=226377492/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 It might make sense in the future to relate this improvisation

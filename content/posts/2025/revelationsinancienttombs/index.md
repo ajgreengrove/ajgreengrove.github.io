@@ -19,14 +19,15 @@ the Neapolitan school of composers, not Carlo Gesualdo alone.
 But we’re talking a niche within a niche within a... you get the point.
 However, this is a romanesca, with “chroma” applied to it:
 Elam Rotem describes chroma in his Early Music Sources YouTube video,
-and the topic is Carlo Gesualdo (Rotem, 2021).
+and the topic is Carlo Gesualdo
+(<a href="#citeproc_bib_item_1">Elam Rotem, 2021</a>).
 Also to clarify, this improvisation is less early music stylistic,
 and applies more modern musical language;
 it is not a Gesualdo-style pastiche at all.
 However, improvisationally, the piece is very straightforward:
 it explores quasi-arpeggiating the underlying framework notes.
 
-To preview the track (then grab the album for "name your price" in Bandcamp):
+To preview the track (then go grab the album for "name your price in Bandcamp!):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=2252574976/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 For the future, I would love to come back regarding
@@ -36,3 +37,15 @@ I will have more to add here later.
 
 Here's the recording session video of the piece:
 <div class="org-youtube"><iframe src="https://www.youtube.com/embed/X-PEnlCeaaw" allowfullscreen title="YouTube Video"></iframe></div>
+
+<details>
+<summary>References</summary>
+<div class="details">
+
+## References
+
+<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Elam Rotem. (2021, October 30). Who’s afraid of Carlo Gesualdo? Retrieved April 9, 2024, from Early Music Sources website: <a href="https://www.earlymusicsources.com/youtube/gesualdo">https://www.earlymusicsources.com/youtube/gesualdo</a></div>
+</div>
+</div>
+</details>

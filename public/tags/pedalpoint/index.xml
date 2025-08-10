@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PedalPoint on A J Greengrove&#39;s Site</title>
+    <link>http://localhost:1313/tags/pedalpoint/</link>
+    <description>Recent content in PedalPoint on A J Greengrove&#39;s Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pedalpoint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goblins Lurking in the Darkness</title>
+      <link>http://localhost:1313/posts/2025/goblinslurkinginthedarkness/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/goblinslurkinginthedarkness/</guid>
+      <description>&lt;p&gt;Goblins Lurking in the Darkness:&#xA;the most blatant dungeon synth parody of this album.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crystalline Chaotic Caves</title>
+      <link>http://localhost:1313/posts/2025/crystallinechaoticcaves/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/crystallinechaoticcaves/</guid>
+      <description>&lt;p&gt;Crystalline Chaotic Caves:&#xA;textural exploration,&#xA;F.Sor etouffez,&#xA;perhaps a dungeon synth parody&#xA;or a game cave theme.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -49,8 +49,8 @@
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
       {{- .Content -}}
-      <b>Categories:</b> {{- partial "categories.html" . -}}
-      <b>Tags:</b> {{- partial "tags.html" . -}}
+      {{- partial "categories.html" . -}}
+      {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
       {{ if .Site.Config.Services.Disqus.Shortname }}
         {{ template "_internal/disqus.html" . }}
@@ -67,10 +67,12 @@
 
     <div class="next-post">
       {{ if .Page.Next }}
-      <a class="link-reverse" href="{{ .Page.Next.Permalink }}?ref=footer"> « <i>(next)</i> {{ .Page.Next.Title }} « </a> {{ end }} </div>
+      <a class="link-reverse" href="{{ .Page.Next.Permalink }}"><i>(next:)</i> « {{ .Page.Next.Title }} «</a>
+      {{ end }}
+    </div>
     <div class="previous-post">
       {{ if .Page.Prev }}
-      <a class="link-reverse" href="{{ .Page.Prev.Permalink }}?ref=footer"> » <i>(previous)</i> {{ .Page.Prev.Title }} » </a>
+      <a class="link-reverse" href="{{ .Page.Prev.Permalink }}"><i>(previous:)</i> » {{ .Page.Prev.Title }} »</a>
       {{ end }}
     </div>
 

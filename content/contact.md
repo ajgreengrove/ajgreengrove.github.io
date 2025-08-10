@@ -1,0 +1,16 @@
++++
+title = "Contact"
+date = 2022-08-27T12:00:00+03:00
+draft = false
+featured_image = "/profileLatest.jpg"
++++
+
+Whether you have
+
+-   custom-commissioned soundtracks,
+-   guitar-recording services,
+-   private coaching,
+-   questions or something else in mind,
+
+[Contact me](mailto:contact@ajgreengrove.com)
+and let's discuss the details!

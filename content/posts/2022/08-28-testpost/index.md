@@ -3,6 +3,7 @@ title = "A Test Post. - For Blog Functionalities"
 date = 2022-08-28T01:34:52+03:00
 draft = false
 featured_image = "2022/08-28-testpost-feature.png"
+tableofcontents = false
 +++
 
 This post tests some functionalities and technical aspects of the site.

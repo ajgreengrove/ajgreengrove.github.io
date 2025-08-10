@@ -19,7 +19,7 @@ that the motive cycles through:
 first aeolian, followed by phrygian;
 then dorian, and finally locrian.
 
-To preview the track (then grab the album for "name your price" in Bandcamp):
+To preview the track (then go grab the album for "name your price in Bandcamp!):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=854855959/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 Here's the recording session video of the piece:

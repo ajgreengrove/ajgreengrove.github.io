@@ -22,9 +22,10 @@ or i, VI and iv -harmonies, receive a fifth leap,
 which would function as applied dominants had they leading tones.
 This reminds me of Elam Rotem’s Early Music Sources Video
 showing how to insert material in between the framework notes,
-or pillars of a renaissance romanesca (Rotem, 2018).
+or pillars of a renaissance romanesca
+(<a href="#citeproc_bib_item_1">Elam Rotem, 2018</a>).
 
-To preview the track (then grab the album for "name your price" in Bandcamp):
+To preview the track (then go grab the album for "name your price in Bandcamp!):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=811887296/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 The 0:10 mark
@@ -41,3 +42,15 @@ in the 01:03 mark.
 
 Here's the recording session video of the piece:
 <div class="org-youtube"><iframe src="https://www.youtube.com/embed/Oo9s60DvxiU" allowfullscreen title="YouTube Video"></iframe></div>
+
+<details>
+<summary>References</summary>
+<div class="details">
+
+## References
+
+<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Elam Rotem. (2018, July 20). The Romanesca. Retrieved April 7, 2025, from Early Music Sources website: <a href="https://www.earlymusicsources.com/youtube/romanesca">https://www.earlymusicsources.com/youtube/romanesca</a></div>
+</div>
+</div>
+</details>
