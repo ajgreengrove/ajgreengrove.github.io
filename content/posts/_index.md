@@ -2,7 +2,7 @@
 title = "Posts"
 date = 2022-08-28T01:34:00+03:00
 draft = false
-featured_image = "/albumCoverLatest.webp"
+featured_image = "/albumCoverLatest.jpg"
 +++
 
 -   To get notified of recent posts,
