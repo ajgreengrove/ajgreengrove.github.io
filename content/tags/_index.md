@@ -1,6 +1,6 @@
 +++
 title = "Tags"
-date = 2022-08-28T00:00:00+03:00
+date = 2024-11-19T00:00:00+02:00
 draft = false
-featured_image = "/albumCoverLatest.jpg"
+featured_image = "/albumCoverLatest.webp"
 +++

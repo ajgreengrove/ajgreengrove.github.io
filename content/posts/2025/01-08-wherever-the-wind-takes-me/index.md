@@ -1,6 +1,6 @@
 +++
 title = "Wherever The Wind Takes Me"
-date = 2025-01-08T22:32:00+03:00
+date = 2025-01-08T22:32:00+02:00
 tags = ["2Up3Down", "ConvergingCadence", "Fonte", "Romanesca"]
 categories = ["WhereverTheWindTakesMe"]
 draft = false

@@ -6,8 +6,16 @@
     <description>Recent content in Home on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>  Single Release: &#34;Prelude (NES Ver. Final Fantasy I)&#34;
+  </title>
+      <link>http://localhost:1313/posts/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s time to start getting into game soundtracks:&#xA;here&amp;rsquo;s the first release on that path,&#xA;&amp;ldquo;Prelude NES Ver. Final Fantasy I&amp;rdquo;.&#xA;In addition to the prelude it features &amp;ldquo;Game Over&amp;rdquo;&#xA;from the original soundtrack.&#xA;To be clear, these are guitar covers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gene Boggs - Eponymous (Featuring A J Greengrove) Album Release</title>
       <link>http://localhost:1313/posts/2025/geneboggs-eponymous-featuringajgreengrove-albumrelease/</link>
@@ -144,21 +152,21 @@
     <item>
       <title>Wherever The Wind Takes Me</title>
       <link>http://localhost:1313/posts/2025/01-08-wherever-the-wind-takes-me/</link>
-      <pubDate>Wed, 08 Jan 2025 22:32:00 +0300</pubDate>
+      <pubDate>Wed, 08 Jan 2025 22:32:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/2025/01-08-wherever-the-wind-takes-me/</guid>
       <description>&lt;p&gt;Wherever The Wind Takes Me:&#xA;arpeggiation of a single motive,&#xA;resulting in a deceptively simple prelude.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wherever the Wind Takes Me - Album Release!</title>
       <link>http://localhost:1313/posts/2024/wherever-the-wind-takes-me/</link>
-      <pubDate>Tue, 26 Nov 2024 20:55:00 +0300</pubDate>
+      <pubDate>Tue, 26 Nov 2024 20:55:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/2024/wherever-the-wind-takes-me/</guid>
       <description>&lt;p&gt;&amp;ldquo;This &amp;lsquo;dungeon nylon guitar&amp;rsquo; album ranges from early music pastiches&#xA;to soundtrack-like music, or fantasias if you will. A great way&#xA;to start this &amp;lsquo;dungeon crawl&amp;rsquo; of game soundtracks.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Test Post. - For Blog Functionalities</title>
       <link>http://localhost:1313/posts/2022/08-28-testpost/</link>
-      <pubDate>Sun, 28 Aug 2022 01:34:52 +0300</pubDate>
+      <pubDate>Sun, 28 Aug 2022 01:34:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/2022/08-28-testpost/</guid>
       <description>&lt;p&gt;This post tests some functionalities and technical aspects of the site.&lt;/p&gt;</description>
     </item>

@@ -1,6 +1,6 @@
 +++
 title = "Wherever the Wind Takes Me - Album Release!"
-date = 2024-11-26t20:55:00+03:00
+date = 2024-11-26T20:55:00+02:00
 categories = ["Works", "WhereverTheWindTakesMe"]
 draft = false
 featured_image = "2024/WhereverTheWindTakesMe-AlbumCover-feature.jpg"
@@ -15,8 +15,8 @@ to start this 'dungeon crawl' of game soundtracks."
 
 {{< figure src="/2024/WhereverTheWindTakesMe-AlbumCover-feature.jpg" alt="A river surrounded by trees and somewhat cloudy blue sky above." caption="<span class=\"figure-number\">Figure 1: </span>\"Wherever the Wind Takes Me\" album cover by Konsta Airisto" >}}
 
-You can preview the album with this embedded player
-before buying it in Bandcamp:
+To preview the album
+(then go grab the album for "name your price" in Bandcamp!):
 
 <div class="org-bandcamp-album"> <iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=333333/linkcol=2ebd35/album=3014684465/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
@@ -47,7 +47,7 @@ More LilyPond-Csound madness to come.
 
 I write blog posts for each piece separately.
 You can find them in:
-[Wherever The Wind Takes Me (Category Page)]({{< relref "whereverthewindtakesme" >}})
+[Wherever The Wind Takes Me (Album)]({{< relref "whereverthewindtakesme" >}})
 
 I also published a YouTube playlist of the album recording sessions:
 
