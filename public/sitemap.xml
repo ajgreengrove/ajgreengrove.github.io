@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/finalfantasyi/</loc>
+    <lastmod>2025-08-30T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025/08-30-prelude-nes-ver-final-fantasy-i/</loc>
+    <lastmod>2025-08-30T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/romanesca/</loc>
+    <lastmod>2025-08-30T00:00:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i/</loc>
     <lastmod>2025-08-29T00:00:00+03:00</lastmod>
   </url><url>
@@ -10,9 +19,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/2025/geneboggs-eponymous-featuringajgreengrove-albumrelease/</loc>
     <lastmod>2025-04-23T00:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/romanesca/</loc>
-    <lastmod>2025-04-18T00:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025/tothelandofnoreturn/</loc>
     <lastmod>2025-04-18T00:00:00+03:00</lastmod>
