@@ -1,25 +1,27 @@
 +++
 title = "About"
+author = ["A J Greengrove"]
 date = 2022-08-26T19:12:00+03:00
 lastmod = 2025-04-16T19:12:00+03:00
 draft = false
-featured_image = "/profileLatest.jpg"
+featured_image = "/images/profileLatest.webp"
 +++
 
-A J Greengrove is a musician in the early music sense:
-one who plays, improvises and composes both on-the-spot
-and with longer processes.
-More experiments with early music concepts to come.
-I play a nylon-stringed Godin guitar,
-engrave scores in LilyPond,
-and compose utilizing
-the powerful csound audio domain-specific programming language.
-
-If you have more questions, don't hesitate to [Contact]({{< relref "contact" >}}) me!
+I play game guitar covers to discuss them and early music theory.
+I then compose soundtracks focusing on narrative storytelling.
 
 For all my creations under the "A J Greengrove" moniker
 from latest to earliest,
 see [Works]({{< relref "works" >}}).
+
+I play a nylon-stringed Godin guitar,
+engrave scores in LilyPond,
+and compose utilizing
+the powerful csound audio domain-specific programming language;
+then record using ecasound.
+Thing is: this enables an almost complete plaintext workflow.
+
+If you have more questions, don't hesitate to [Contact]({{< relref "contact" >}}) me!
 
 The actual university degrees &amp; studies I’ve done (highest-level listed only):
 

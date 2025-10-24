@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FinalFantasyI on A J Greengrove&#39;s Site</title>
+    <title>Final Fantasy I on A J Greengrove&#39;s Site</title>
     <link>http://localhost:1313/categories/finalfantasyi/</link>
-    <description>Recent content in FinalFantasyI on A J Greengrove&#39;s Site</description>
+    <description>Recent content in Final Fantasy I on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 13:04:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/finalfantasyi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Prelude (NES Ver. Final Fantasy I)</title>
+      <title>  Exploring &#34;Prelude (NES Ver. Final Fantasy I)&#34;
+  </title>
       <link>http://localhost:1313/posts/2025/08-30-prelude-nes-ver-final-fantasy-i/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0300</pubDate>
       <guid>http://localhost:1313/posts/2025/08-30-prelude-nes-ver-final-fantasy-i/</guid>
-      <description>&lt;p&gt;This is the evergreen prelude from Final Fantasy&#xA;(I the original one for NES).&#xA;In addition to the peculiar arpeggiation,&#xA;I had to &amp;ldquo;double-wrap&amp;rdquo;&#xA;the arpeggio to fit it with the guitar.&#xA;I quite like the result in a compositional sense!&lt;/p&gt;</description>
+      <description>&lt;p&gt;The very original NES prelude way back in 1987&#xA;from Final Fantasy (I) behaves differently&#xA;from the ones to follow,&#xA;as we&amp;rsquo;ll se Nobuo himself demonstrating.&#xA;I hear a swirling kaleidoscope in the inverted arpeggios,&#xA;so I cover them with the guitar.&#xA;Let&amp;rsquo;s peek into the colored glass&#xA;and some untapped game music potential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>  Single Unveiled: &#34;Prelude (NES Ver. Final Fantasy I)&#34;
+  </title>
+      <link>http://localhost:1313/posts/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s Play Final Fantasy I - with Guitar!&#xA;&amp;ldquo;Prelude&amp;rdquo; (NES Version specifically) and &amp;ldquo;Game Over&amp;rdquo; for starters.&#xA;Konsta Airisto&amp;rsquo;s mage art captures nicely the&#xA;hidden music theory wizardries in the game&amp;rsquo;s soundtrack.&#xA;I now explain the journey that awaits us (EP and Album to come).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

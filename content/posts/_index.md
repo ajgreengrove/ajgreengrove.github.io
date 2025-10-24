@@ -1,8 +1,9 @@
 +++
 title = "Posts"
+author = ["A J Greengrove"]
 date = 2022-08-28T01:34:00+03:00
 draft = false
-featured_image = "/albumCoverLatest.jpg"
+featured_image = "/images/albumCoverLatest.webp"
 +++
 
 -   To get notified of recent posts,

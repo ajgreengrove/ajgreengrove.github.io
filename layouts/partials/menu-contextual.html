@@ -1,0 +1,18 @@
+{{/* toc moved to single.html (start of post) */}}
+
+{{ $related := .Site.RegularPages.Related . | collections.First 15 }}
+
+{{ with $related }}
+<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+	<p class="f5 b mb3">{{ lang.Translate "related" }}</p>
+	<ul class="pa0 list">
+		{{ range . }}
+		<li  class="mb2">
+			<a href="{{ .RelPermalink }}">
+				{{- .Title -}}
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+</div>
+{{ end }}

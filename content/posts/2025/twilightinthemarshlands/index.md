@@ -1,16 +1,19 @@
 +++
-title = "Twilight in the Marshlands"
+title = """
+  Exploring "Twilight in the Marshlands"
+  """
+author = ["A J Greengrove"]
 date = 2025-04-05T00:00:00+03:00
 categories = ["WhereverTheWindTakesMe"]
 draft = false
-featured_image = "2025/TwilightInTheMarshlands-feature.png"
+featured_image = "/images/2025/04-05-twilight-in-the-marshlands-feature.webp"
 tableofcontents = false
 +++
 
 Twilight in the Marshlands:
 This motif, I feel is rather soundtrack-like, serious and heavy.
 
-{{< figure src="/2025/TwilightInTheMarshlands-feature.png" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Twilight in the Marshlands\" Motif" >}}
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
 
 The opening harmony could be explained in many ways,
 but for me i-bvi6-i suffices.
@@ -22,8 +25,9 @@ some chromatic, some diatonic.
 Perhaps Michael Koch (En blanc et noir YouTube channel)
 could better explain some romantic schemata or compositional devices.
 
-To preview the track (then go grab the album for "name your price in Bandcamp!):
-<div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=4070923881/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your coins):
+<div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=ffffff/linkcol=2ebd35/tracklist=false/artwork=small/track=4070923881/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 Anyway, the 1:25 mark
 plays with the ambivalence of the augmented triad,
@@ -32,6 +36,36 @@ For the future,
 I would be interested in exploring Carlo Gesualdo -style harmonies
 in the format of this piece;
 or neapolitan school of renaissance madrigal composers in general.
+
+<details>
+<summary>(LilyPond code)</summary>
+<div class="details">
+
+```lilypond
+#(ly:set-option 'resolution 200)
+\version "2.24.4"
+\language "english"
+\pointAndClickOff
+\header { tagline = "" }
+melody = \relative b {
+  \repeat unfold 2 { <b d>8 q <b cs> q }
+  \repeat unfold 2 { <bf d>8 q <bf c> q }
+}
+\score {
+  <<
+    \new Staff { \clef "bass" \melody }
+    \new TabStaff \with {} <<
+      \new TabVoice { \melody }
+    >>
+  >>
+}
+```
+</div>
+</details>
+
+<a id="figure--fig:04-05-twilight-in-the-marshlands-feature.webp"></a>
+
+{{< figure src="/images/2025/04-05-twilight-in-the-marshlands-feature.webp" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Twilight in the Marshlands\" Motif" >}}
 
 Here's the recording session video of the piece:
 <div class="org-youtube"><iframe src="https://www.youtube.com/embed/6P-9MBe4R98" allowfullscreen title="YouTube Video"></iframe></div>

@@ -15,8 +15,13 @@ path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 category = 'categories'
 tag = 'tags'
 
+[markup]
 [markup.goldmark.renderer]
 unsafe = true
+[markup.tableOfContents]
+endLevel = 2
+ordered = false
+startLevel = 2
 
 [menu]
 [[menu.main]]
@@ -44,3 +49,69 @@ identifier = "contact"
 name = "Contact"
 url = "/contact"
 weight = 5
+
+[params]
+background_color_class = "bg-dark-green"
+body_classes = "avenir bg-near-white"
+custom_css = ["custom.css"]
+favicon = "/favicon.ico"
+featured_image_class = "cover bg-center"
+post_content_classes = "avenir bg-near-white"
+
+[params.ananke.social.follow]
+networks = [
+  "bandcamp",
+  "spotify",
+	"youtube",
+	"twitch",
+]
+[params.ananke.social.share]
+sharetext = true
+networks = [
+	"email",
+	"reddit",
+	"pinterest",
+	"facebook",
+	"linkedin",
+]
+[params.ananke.social.bandcamp]
+username = "ajgreengrove"
+[params.ananke.social.networks.bandcamp]
+icon = "bandcamp" # font awesome brand icon name
+label = "Bandcamp"
+profile = "https://%s.bandcamp.com/follow_me"
+slug = "bandcamp"
+[params.ananke.social.twitch]
+username = "ajgreengrove"
+[params.ananke.social.networks.twitch]
+color = "#0077b5"
+icon = "twitch" # font awesome brand icon name
+label = "Twitch"
+link = "https://www.twitch.com/shareStream"
+profile = "https://www.twitch.com/%s"
+slug = "twitch"
+[params.ananke.social.facebook]
+username = "ajgreengrove"
+[params.ananke.social.instagram]
+username = "ajgreengrove"
+[params.ananke.social.linkedin]
+username = "ajgreengrove"
+[params.ananke.social.mastodon]
+profilelink = "https://zirk.us/@ajgreengrove"
+[params.ananke.social.pinterest]
+username = "ajgreengrove"
+[params.ananke.social.reddit]
+username = "ajgreengrove"
+[params.ananke.social.spotify]
+username = "3ebDrYLltv0XbqnWZzO5Us"
+[params.ananke.social.networks.spotify]
+icon = "spotify" # font awesome brand icon name
+label = "Spotify"
+profile = "https://open.spotify.com/artist/%s"
+slug = "spotify"
+[params.ananke.social.tiktok]
+username = "ajgreengrove"
+[params.ananke.social.youtube]
+username = "ajgreengrove"
+[params.ananke.social.networks.rss]
+profile = "https://www.ajgreengrove.com/index.xml"

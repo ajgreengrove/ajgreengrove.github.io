@@ -1,8 +1,9 @@
 +++
 title = "Contact"
+author = ["A J Greengrove"]
 date = 2022-08-27T12:00:00+03:00
 draft = false
-featured_image = "/profileLatest.jpg"
+featured_image = "/images/profileLatest.webp"
 +++
 
 Whether you have

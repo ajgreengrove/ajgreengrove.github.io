@@ -8,7 +8,7 @@
   <p>Welcome to this 'dungeon crawl' of game soundtracks!</p>
 
   <div class="flex justify-between">
-    <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
+    <a class="f4 fw4 hover-white no-underline dark-gray dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
       &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}. Powered by Hugo with Ananke theme and Netlify.
     </a>
     <div>{{ partialCached "social/follow.html" . }}</div>

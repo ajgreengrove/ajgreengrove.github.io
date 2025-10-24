@@ -6,28 +6,28 @@
     <description>Recent content in Categories on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 16:51:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FinalFantasyI</title>
+      <title>Final Fantasy I</title>
       <link>http://localhost:1313/categories/finalfantasyi/</link>
-      <pubDate>Sat, 30 Aug 2025 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 14 Oct 2025 16:51:00 +0300</pubDate>
       <guid>http://localhost:1313/categories/finalfantasyi/</guid>
-      <description></description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;(This header exists for proper org (ox-hugo) internal linking.&lt;/li&gt;&#xA;&lt;li&gt;(?This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary?)&lt;/li&gt;&#xA;&lt;li&gt;The actual category page is auto-created by hugo.&lt;/li&gt;&#xA;&lt;li&gt;Custom front matter cover seems to work, but I think it&amp;rsquo;s misused time.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Works</title>
       <link>http://localhost:1313/categories/works/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/categories/works/</guid>
-      <description>&lt;p&gt;This headline allows proper linking.&#xA;The actual category page is auto-created by hugo.&#xA;Custom front matter cover seems to work.&lt;/p&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;(This header exists for proper org (ox-hugo) internal linking.&lt;/li&gt;&#xA;&lt;li&gt;(?This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary?)&lt;/li&gt;&#xA;&lt;li&gt;The actual category page is auto-created by hugo.&lt;/li&gt;&#xA;&lt;li&gt;Custom front matter cover seems to work: for &amp;ldquo;Works&amp;rdquo;,&#xA;album cover (latest) &amp;lsquo;works&amp;rsquo; (lol) great.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Wherever The Wind Takes Me (Album)</title>
+      <title>Wherever The Wind Takes Me</title>
       <link>http://localhost:1313/categories/whereverthewindtakesme/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/categories/whereverthewindtakesme/</guid>
-      <description>&lt;p&gt;This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary.&#xA;This headline allows proper linking.&#xA;The actual category page is auto-created by hugo.&#xA;Custom front matter cover seems to work.&lt;/p&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;(This header exists for proper org (ox-hugo) internal linking.&lt;/li&gt;&#xA;&lt;li&gt;(?This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary?)&lt;/li&gt;&#xA;&lt;li&gt;The actual category page is auto-created by hugo.&lt;/li&gt;&#xA;&lt;li&gt;Custom front matter cover seems to work, but I think it&amp;rsquo;s misused time.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,2 +1,3 @@
+whatsInThis = "Table of Contents"
 [taxonomyPageList]
-other = "...listing “{{ .Title }}”:"
+other = "...listing items from “{{ .Title }}”:"
