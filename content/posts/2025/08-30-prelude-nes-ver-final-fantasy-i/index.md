@@ -4,6 +4,7 @@ title = """
   """
 author = ["A J Greengrove"]
 date = 2025-08-30T00:00:00+03:00
+lastmod = 2025-10-24T21:44:00+03:00
 tags = ["Romanesca"]
 categories = ["FinalFantasyI"]
 draft = false
