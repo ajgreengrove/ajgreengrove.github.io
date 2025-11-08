@@ -1,6 +1,6 @@
 +++
 title = """
-  Exploring "Prelude (NES Ver. Final Fantasy I)"
+  The "Wrong-Note" Prelude of Final Fantasy I (1987 NES)
   """
 author = ["A J Greengrove"]
 date = 2025-08-30T00:00:00+03:00

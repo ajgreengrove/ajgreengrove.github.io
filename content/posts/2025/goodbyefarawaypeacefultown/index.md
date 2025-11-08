@@ -23,7 +23,7 @@ Later in the piece these latter halves tend
 to ride the descending-fifths sequence rollercoaster.
 
 To peek into this 'audio dungeon exploration'
-before shopping it in the Bandcamp market (for name your coins):
+before shopping it in the Bandcamp market (for name your gold coins):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=ffffff/linkcol=2ebd35/tracklist=false/artwork=small/track=835945168/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 In the 0:30 mark

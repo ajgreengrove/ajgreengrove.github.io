@@ -34,7 +34,7 @@ of early / classical music on-the-spot composers:
 -   G. Sanguinetti's "Art of Partimento"
 
 To peek into the 'audio dungeon explorations' of this album,
-before shopping it in the Bandcamp market (for name your coins):
+before shopping it in the Bandcamp market (for name your gold coins):
 
 <div class="org-bandcamp-album"> <iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=ffffff/linkcol=2ebd35/album=3014684465/tracklist=true/artwork=small/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
@@ -48,7 +48,7 @@ One day I will return with the Caduceus of Evorg from the final dungeon!
 
 As I write of the 19 dungeon explorations,
 you can find an automagically filling list
-with short summaries in:
+with short summaries in the page:
 [Wherever The Wind Takes Me]({{< relref "whereverthewindtakesme" >}})
 
 The recording was captured with following sorcery:

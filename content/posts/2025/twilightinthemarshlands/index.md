@@ -26,7 +26,7 @@ Perhaps Michael Koch (En blanc et noir YouTube channel)
 could better explain some romantic schemata or compositional devices.
 
 To peek into this 'audio dungeon exploration'
-before shopping it in the Bandcamp market (for name your coins):
+before shopping it in the Bandcamp market (for name your gold coins):
 <div class="org-bandcamp-track"> <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album= 3014684465/size=large/bgcol=ffffff/linkcol=2ebd35/tracklist=false/artwork=small/track=4070923881/transparent=true/" seamless><a href="https://ajgreengrove.bandcamp.com/album/ wherever-the-wind-takes-me"> "Wherever The Wind Takes Me" by A J Greengrove</a></iframe>
 
 Anyway, the 1:25 mark

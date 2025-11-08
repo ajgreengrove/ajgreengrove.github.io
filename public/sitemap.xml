@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/nothowto-composing-arpeggios-map-theme/</loc>
+    <lastmod>2025-10-26T23:17:00+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/finalfantasyi/</loc>
     <lastmod>2025-10-14T16:51:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025/08-30-prelude-nes-ver-final-fantasy-i/</loc>
-    <lastmod>2025-08-30T00:00:00+03:00</lastmod>
+    <lastmod>2025-10-24T21:44:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/romanesca/</loc>
-    <lastmod>2025-08-30T00:00:00+03:00</lastmod>
+    <lastmod>2025-10-24T21:44:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i/</loc>
     <lastmod>2025-10-13T13:04:00+03:00</lastmod>
