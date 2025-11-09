@@ -13,7 +13,7 @@ toc = true
 +++
 
 The very original NES prelude way back in 1987
-from Final Fantasy (I) behaves differently
+from Final Fantasy I behaves differently
 from the ones to follow,
 as we'll se Nobuo himself demonstrating.
 I hear a swirling kaleidoscope in the inverted arpeggios,
@@ -21,22 +21,29 @@ so I cover them with the guitar.
 Let's peek into the colored glass
 and some untapped game music potential.
 
-If you prefer video form,
-here's my quick glance into the post:
 
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/Dhymgetrx-c" allowfullscreen title="YouTube Video"></iframe></div>
+## Prologue: Walkthrough and Guitar Cover Videos {#prologue-walkthrough-and-guitar-cover-videos}
+
+For those who prefer, here's a god mode cheat video of this blogpost:
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Dhymgetrx-c" title=Wrong Notes in - Prelude - Final Fantasy I NES frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+To listen while we decrypt the music theory behind the soundtrack,
+here's my guitar cover video:
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/8dz8EhveGHM" title=Prelude - Final Fantasy I NES Ver - Guitar Cover - Music Theory frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+Here's timestamps to explore this audio dungeon:
+
+-   00:00 the arpeggios begin. Notice avoiding the lowest note (programming error in NES)
+-   00:12 Mr. Dudley reads the ensuing harmonies as a '50s Progression (I vi IV V), which I challenge
+-   00:36 Victory topos AKA double backdoor cadence (lol) AKA Mario cadence = bVI bVII I#3
+-   00:48 Loops "from beginning", as customary in game soundtracks
+
+Deeper floors with more details await in the blogpost down below.
 
 When I covered this with the guitar,
 for starters, I had to "double-wrap"
 the arpeggio to fit it in the fretboard.
-Here's a "smart Link"
-to peek into this 'audio dungeon exploration'
-(apple music must be searched):
-
-<https://snd.click/a-j-greengrove-250825>
-
-You might want to compare this to more canonical versions
-(example below):
+You might want to compare my version to more canonical versions
+(such as Harpsibored's example below).
 
 
 ## The Key is B-flat Major (not C) {#the-key-is-b-flat-major--not-c}
@@ -113,11 +120,6 @@ note/sound(s?) were missing from the program (of the prelude):
 
 What he actually wanted was what would be corrected for later instances,
 from Final Fantasy II onwards.
-
-If you prefer video,
-here's again my "double-wrapped" arpeggio version for listening:
-
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/8dz8EhveGHM" allowfullscreen title="YouTube Video"></iframe></div>
 
 He calls it a very unnatural arpeggio,
 and I would agree to an extent that it is musically challenging.
@@ -319,6 +321,18 @@ In my first live stream,
 I use this technique to twist and turn
 my arpeggios down and up like in this original NES prelude
 to compose my own game soundtrack.
+
+
+## Links {#links}
+
+If you prefer music streaming distributors: Spotify and the like,
+here's a "smart Link" for this "audio dungeon"
+(apple music must be searched):
+
+<https://snd.click/a-j-greengrove-250825>
+
+Here's "Final Fantasy I Complete (Game Guitar Covers)", an updating playlist:
+<div class="org-youtube-playlist"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLN2kCRRlVZAupp1wDVnDj6CrMik4xyPlp" title=Final Fantasy I Complete - Game Guitar Covers frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <details>
 <summary>References</summary>

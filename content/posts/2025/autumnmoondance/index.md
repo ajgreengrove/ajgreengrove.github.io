@@ -4,7 +4,7 @@ title = """
   """
 author = ["A J Greengrove"]
 date = 2025-04-07T00:00:00+03:00
-tags = ["ConvergingCadence", "Descending5ths", "FalseRelation", "Prinner", "Romanesca"]
+tags = ["ConvergingCadence", "FalseRelation", "Prinner", "Romanesca"]
 categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-07-autumn-moon-dance-feature.webp"

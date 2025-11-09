@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/woeful-skips-game-over-final-fantasy/</loc>
+    <lastmod>2025-11-08T02:56:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/descending5ths/</loc>
+    <lastmod>2025-11-08T02:56:00+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/nothowto-composing-arpeggios-map-theme/</loc>
     <lastmod>2025-10-26T23:17:00+02:00</lastmod>
   </url><url>
@@ -60,9 +66,6 @@
     <lastmod>2025-04-11T00:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/2up3down/</loc>
-    <lastmod>2025-04-11T00:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/descending5ths/</loc>
     <lastmod>2025-04-11T00:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/prinner/</loc>
