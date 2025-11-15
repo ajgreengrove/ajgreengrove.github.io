@@ -6,6 +6,5 @@ draft = false
 featured_image = "/images/albumCoverLatest.webp"
 +++
 
-This page lists tags: good for exploring music theory "monsters" etc.
-In contrast, [Categories]({{< relref "categories" >}}) are more broad and thematically united:
-~~albums~~ **maps** and such.
+This page lists tags.
+In contrast, [Categories]({{< relref "categories" >}}) are more broad and thematically united.

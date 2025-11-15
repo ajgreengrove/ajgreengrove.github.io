@@ -6,7 +6,7 @@ author = ["A J Greengrove"]
 date = 2025-08-30T00:00:00+03:00
 lastmod = 2025-10-24T21:44:00+03:00
 tags = ["Romanesca"]
-categories = ["FinalFantasyI"]
+categories = ["CounterpointChronicles", "CrypticGameMusicTheoryGems", "FinalFantasyI"]
 draft = false
 featured_image = "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
 toc = true
@@ -32,10 +32,14 @@ here's my guitar cover video:
 <div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/8dz8EhveGHM" title=Prelude - Final Fantasy I NES Ver - Guitar Cover - Music Theory frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 Here's timestamps to explore this audio dungeon:
 
--   00:00 the arpeggios begin. Notice avoiding the lowest note (programming error in NES)
--   00:12 Mr. Dudley reads the ensuing harmonies as a '50s Progression (I vi IV V), which I challenge
--   00:36 Victory topos AKA double backdoor cadence (lol) AKA Mario cadence = bVI bVII I#3
--   00:48 Loops "from beginning", as customary in game soundtracks
+<div class="verse">
+
+00:00 The arpeggios begin. Notice avoiding the lowest note (programming error in NES)<br />
+00:12 Mr. Dudley reads the ensuing harmonies as a '50s Progression (I vi IV V), which I challenge<br />
+00:36 Victory topos AKA double backdoor cadence (lol) AKA Mario cadence = bVI bVII I#3<br />
+00:48 Loops "from beginning", as customary in game soundtracks<br />
+
+</div>
 
 Deeper floors with more details await in the blogpost down below.
 

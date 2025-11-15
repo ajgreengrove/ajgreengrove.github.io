@@ -6,5 +6,5 @@ draft = false
 featured_image = "/images/albumCoverLatest.webp"
 +++
 
-This page lists broad, thematical categories, such as ~~albums~~ **maps** etc.
+This page lists broad, thematical categories.
 In contrast, [Tags]({{< relref "tags" >}}) are more granular.

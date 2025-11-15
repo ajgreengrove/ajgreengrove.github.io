@@ -2,15 +2,14 @@
 title = "Contact"
 author = ["A J Greengrove"]
 date = 2022-08-27T12:00:00+03:00
+lastmod = 2025-11-10T04:04:00+02:00
 draft = false
 featured_image = "/images/profileLatest.webp"
 +++
 
-Whether you have
+<div class="verse">
 
--   custom-commissioned soundtracks,
--   guitar-recording services,
--   private coaching,
--   questions or something else in mind,
+A J Greengrove<br />
+[contact@ajgreengrove.com](mailto:contact@ajgreengrove.com)<br />
 
-[contact@ajgreengrove.com](mailto:contact@ajgreengrove.com) and let's discuss the details!
+</div>

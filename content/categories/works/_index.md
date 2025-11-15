@@ -6,8 +6,6 @@ draft = false
 featured_image = "/images/albumCoverLatest.webp"
 +++
 
--   (This header exists for proper org (ox-hugo) internal linking.
--   (?This text shows in the "image with text" -summary?)
--   The actual category page is auto-created by hugo.
--   Custom front matter cover seems to work: for "Works",
-    album cover (latest) 'works' (lol) great.
+-   Game Music Packs are for indie game developers; whereas
+-   Albums are, y'know, more rock'n'roll, 'poor artist' stuff.
+-   If you want to commission work, be sure to [Contact]({{< relref "contact" >}}) me.

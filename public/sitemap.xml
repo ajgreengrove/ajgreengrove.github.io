@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/crypticgamemusictheorygems/</loc>
+    <lastmod>2025-11-10T03:05:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/thealchemyofgamemusicthemes/</loc>
+    <lastmod>2025-11-10T03:05:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/counterpointchronicles/</loc>
+    <lastmod>2025-11-10T03:03:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/how-to-compose-game-over-woeful-hopeful/</loc>
+    <lastmod>2025-11-10T02:48:00+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/woeful-skips-game-over-final-fantasy/</loc>
     <lastmod>2025-11-08T02:56:00+02:00</lastmod>
   </url><url>
@@ -132,7 +144,7 @@
     <lastmod>2022-08-28T01:34:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2022-08-27T12:00:00+03:00</lastmod>
+    <lastmod>2025-11-10T04:04:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-04-16T19:12:00+03:00</lastmod>

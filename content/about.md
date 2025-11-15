@@ -7,21 +7,17 @@ draft = false
 featured_image = "/images/profileLatest.webp"
 +++
 
-I play game guitar covers to discuss them and early music theory.
-I then compose soundtracks focusing on narrative storytelling.
+-   I play game guitar covers,
+    then decrypt music theory
+    to compose game music soundtracks.
+-   Perhaps find my [Works]({{< relref "works" >}}) (latest to earliest)
+-   I play a nylon-stringed Godin guitar;
+    engrave scores by coding them in(to) LilyPond;
+    program Csound synths for 'summoning' (I try make them as alive as possible);
+-   I use ecasound, a multitrack recorder to mix my music in the command line.
+-   A most beautiful thing: all this enables an almost complete **plaintext workflow.**
 
-For all my creations under the "A J Greengrove" moniker
-from latest to earliest,
-see [Works]({{< relref "works" >}}).
-
-I play a nylon-stringed Godin guitar,
-engrave scores in LilyPond,
-and compose utilizing
-the powerful csound audio domain-specific programming language;
-then record using ecasound.
-Thing is: this enables an almost complete plaintext workflow.
-
-If you have more questions, don't hesitate to [Contact]({{< relref "contact" >}}) me!
+If you have commissions or questions perhaps, don't hesitate to [Contact]({{< relref "contact" >}}) me!
 
 The actual university degrees &amp; studies I’ve done (highest-level listed only):
 

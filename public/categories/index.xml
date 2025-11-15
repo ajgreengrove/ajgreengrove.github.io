@@ -6,28 +6,49 @@
     <description>Recent content in Categories on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Oct 2025 16:51:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 03:05:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptic Game Music Theory Gems</title>
+      <link>http://localhost:1313/categories/crypticgamemusictheorygems/</link>
+      <pubDate>Mon, 10 Nov 2025 03:05:00 +0200</pubDate>
+      <guid>http://localhost:1313/categories/crypticgamemusictheorygems/</guid>
+      <description>&lt;p&gt;In &amp;lsquo;Cryptic game music theory gems&amp;rsquo; I first play game guitar covers,&#xA;then try to elucidate composing tools to utilize in&#xA;In &lt;a href=&#34;http://localhost:1313/categories/thealchemyofgamemusicthemes/&#34;&gt;The Alchemy of Game Music Themes&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Alchemy of Game Music Themes</title>
+      <link>http://localhost:1313/categories/thealchemyofgamemusicthemes/</link>
+      <pubDate>Mon, 10 Nov 2025 03:05:00 +0200</pubDate>
+      <guid>http://localhost:1313/categories/thealchemyofgamemusicthemes/</guid>
+      <description>&lt;p&gt;In &amp;lsquo;The Alchemy of Game Music Themes&amp;rsquo; we&#xA;compose using the knowledge we learned from&#xA;&lt;a href=&#34;http://localhost:1313/categories/crypticgamemusictheorygems/&#34;&gt;Cryptic Game Music Theory Gems&lt;/a&gt; (game guitar covers).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Counterpoint Chronicles</title>
+      <link>http://localhost:1313/categories/counterpointchronicles/</link>
+      <pubDate>Mon, 10 Nov 2025 03:03:00 +0200</pubDate>
+      <guid>http://localhost:1313/categories/counterpointchronicles/</guid>
+      <description>&lt;p&gt;&amp;lsquo;Counterpoint Chronicles: Game Composing &amp;amp; Theory Talk&amp;rsquo;&#xA;is the title of my ongoing series of twitch streams, in which:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Final Fantasy I</title>
       <link>http://localhost:1313/categories/finalfantasyi/</link>
       <pubDate>Tue, 14 Oct 2025 16:51:00 +0300</pubDate>
       <guid>http://localhost:1313/categories/finalfantasyi/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;(This header exists for proper org (ox-hugo) internal linking.&lt;/li&gt;&#xA;&lt;li&gt;(?This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary?)&lt;/li&gt;&#xA;&lt;li&gt;The actual category page is auto-created by hugo.&lt;/li&gt;&#xA;&lt;li&gt;Custom front matter cover seems to work, but I think it&amp;rsquo;s misused time.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description></description>
     </item>
     <item>
       <title>Works</title>
       <link>http://localhost:1313/categories/works/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/categories/works/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;(This header exists for proper org (ox-hugo) internal linking.&lt;/li&gt;&#xA;&lt;li&gt;(?This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary?)&lt;/li&gt;&#xA;&lt;li&gt;The actual category page is auto-created by hugo.&lt;/li&gt;&#xA;&lt;li&gt;Custom front matter cover seems to work: for &amp;ldquo;Works&amp;rdquo;,&#xA;album cover (latest) &amp;lsquo;works&amp;rsquo; (lol) great.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Game Music Packs are for indie game developers; whereas&lt;/li&gt;&#xA;&lt;li&gt;Albums are, y&amp;rsquo;know, more rock&amp;rsquo;n&amp;rsquo;roll, &amp;lsquo;poor artist&amp;rsquo; stuff.&lt;/li&gt;&#xA;&lt;li&gt;If you want to commission work, be sure to &lt;a href=&#34;http://localhost:1313/contact/&#34;&gt;Contact&lt;/a&gt; me.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Wherever The Wind Takes Me</title>
       <link>http://localhost:1313/categories/whereverthewindtakesme/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/categories/whereverthewindtakesme/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;(This header exists for proper org (ox-hugo) internal linking.&lt;/li&gt;&#xA;&lt;li&gt;(?This text shows in the &amp;ldquo;image with text&amp;rdquo; -summary?)&lt;/li&gt;&#xA;&lt;li&gt;The actual category page is auto-created by hugo.&lt;/li&gt;&#xA;&lt;li&gt;Custom front matter cover seems to work, but I think it&amp;rsquo;s misused time.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description></description>
     </item>
   </channel>
 </rss>

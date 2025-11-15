@@ -6,10 +6,17 @@
     <description>Recent content in Home on A J Greengrove&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2025 02:56:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 21:14:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>  The Woeful Skips in &#34;Game Over&#34; from &#34;Final Fantasy I&#34;
+      <title>How to Compose a Woeful, Yet Hopeful Game Over (Rescoring alt254)</title>
+      <link>http://localhost:1313/posts/how-to-compose-game-over-woeful-hopeful/</link>
+      <pubDate>Mon, 10 Nov 2025 02:48:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/how-to-compose-game-over-woeful-hopeful/</guid>
+      <description>&lt;p&gt;In this blogpost, summary&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>  The Woeful Melody of &#34;Game Over&#34; from &#34;Final Fantasy I&#34;
   </title>
       <link>http://localhost:1313/posts/woeful-skips-game-over-final-fantasy/</link>
       <pubDate>Sat, 08 Nov 2025 02:56:00 +0200</pubDate>
@@ -219,14 +226,14 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Sat, 27 Aug 2022 12:00:00 +0300</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;Whether you have&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;verse&#34;&gt;&#xA;&lt;p&gt;A J Greengrove&lt;br /&gt;&#xA;&lt;a href=&#34;mailto:contact@ajgreengrove.com&#34;&gt;contact@ajgreengrove.com&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 26 Aug 2022 19:12:00 +0300</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I play game guitar covers to discuss them and early music theory.&#xA;I then compose soundtracks focusing on narrative storytelling.&lt;/p&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;I play game guitar covers,&#xA;then decrypt music theory&#xA;to compose game music soundtracks.&lt;/li&gt;&#xA;&lt;li&gt;Perhaps find my &lt;a href=&#34;http://localhost:1313/categories/works/&#34;&gt;Works&lt;/a&gt; (latest to earliest)&lt;/li&gt;&#xA;&lt;li&gt;I play a nylon-stringed Godin guitar;&#xA;engrave scores by coding them in(to) LilyPond;&#xA;program Csound synths for &amp;lsquo;summoning&amp;rsquo; (I try make them as alive as possible);&lt;/li&gt;&#xA;&lt;li&gt;I use ecasound, a multitrack recorder to mix my music in the command line.&lt;/li&gt;&#xA;&lt;li&gt;A most beautiful thing: all this enables an almost complete &lt;strong&gt;plaintext workflow.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you have commissions or questions perhaps, don&amp;rsquo;t hesitate to &lt;a href=&#34;http://localhost:1313/contact/&#34;&gt;Contact&lt;/a&gt; me!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

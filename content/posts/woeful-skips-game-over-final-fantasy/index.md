@@ -1,11 +1,12 @@
 +++
 title = """
-  The Woeful Skips in "Game Over" from "Final Fantasy I"
+  The Woeful Melody of "Game Over" from "Final Fantasy I"
   """
 author = ["A J Greengrove"]
 date = 2025-11-08T02:56:00+02:00
+lastmod = 2025-11-15T21:14:00+02:00
 tags = ["Descending5ths"]
-categories = ["FinalFantasyI"]
+categories = ["CounterpointChronicles", "CrypticGameMusicTheoryGems", "FinalFantasyI"]
 draft = false
 featured_image = "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
 toc = true
@@ -16,23 +17,31 @@ able to evoke a sense of losing and game being over
 using a generic descending-fifths sequence?
 
 
-## Prologue: The Guitar Cover Video {#prologue-the-guitar-cover-video}
+## Prologue: Walkthrough and Guitar Cover Videos {#prologue-walkthrough-and-guitar-cover-videos}
+
+For those who prefer, here's a god mode cheat video of this blogpost:
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/vMWEbC2hdrc" title=Woeful Skips - Game Over - Final Fantasy I NES frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 To listen while we decrypt the music theory behind the soundtrack,
 here's my guitar cover video:
 <div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/G1lJSlKqi4A" title=Game Over - Final Fantasy I Pixel Remaster Ver - Guitar Cover - Music Theory frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+(I mixed up the PS1 and Pixel Remaster versions bad time: it shows in the text overlay in the bottom-left corner. Sorry!)
 Here's timestamps to explore this audio dungeon:
 (numbers denote scale degrees in D minor):
 
--   0:00 Dominant with counterpoint
--   0:03 The descending-fifths sequence begins
--   0:04 The 1st melodic leap down, then minor second up (5 6)
--   0:06 The melody uses minor seconds (2 3 2), then leap down
--   0:10 After a leap down, minor seconds (3 2) in the lower octave
--   0:12 Half cadence
--   0:14 The second half begins: it is more ornamented (I made guitaristic choices, mind you).
--   0:22 This is the cadence they changed later into VI V i what I play here.
--   0:31 I loop the piece as typical in game soundtracks.
+<div class="verse">
+
+0:00 Dominant with counterpoint<br />
+0:03 The descending-fifths sequence begins<br />
+0:04 The 1st melodic leap down, then minor second up (5 6)<br />
+0:06 The melody uses minor seconds (2 3 2), then leap down<br />
+0:10 After a leap down, minor seconds (3 2) in the lower octave<br />
+0:12 Half cadence<br />
+0:14 The second half begins: it is more ornamented (I made guitaristic choices, mind you).<br />
+0:22 This is the cadence they changed later into VI V i what I play here.<br />
+0:31 I loop the piece as typical in game soundtracks.<br />
+
+</div>
 
 Deeper floors with more details await in the blogpost down below.
 
