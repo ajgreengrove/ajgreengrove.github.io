@@ -9,25 +9,25 @@
     <lastBuildDate>Mon, 10 Nov 2025 03:05:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cryptic Game Music Theory Gems</title>
-      <link>http://localhost:1313/categories/crypticgamemusictheorygems/</link>
+      <title>Decrypting Game Music Theory Gems</title>
+      <link>http://localhost:1313/categories/decryptinggamemusictheorygems/</link>
       <pubDate>Mon, 10 Nov 2025 03:05:00 +0200</pubDate>
-      <guid>http://localhost:1313/categories/crypticgamemusictheorygems/</guid>
-      <description>&lt;p&gt;In &amp;lsquo;Cryptic game music theory gems&amp;rsquo; I first play game guitar covers,&#xA;then try to elucidate composing tools to utilize in&#xA;In &lt;a href=&#34;http://localhost:1313/categories/thealchemyofgamemusicthemes/&#34;&gt;The Alchemy of Game Music Themes&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/categories/decryptinggamemusictheorygems/</guid>
+      <description>&lt;p&gt;In &amp;lsquo;Decrypting Game Music Theory Gems&amp;rsquo; I first play game guitar covers,&#xA;then try to elucidate composing tools to utilize in&#xA;In &lt;a href=&#34;http://localhost:1313/categories/thealchemyofgamemusicthemes/&#34;&gt;The Alchemy of Game Music Themes&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Alchemy of Game Music Themes</title>
-      <link>http://localhost:1313/categories/thealchemyofgamemusicthemes/</link>
-      <pubDate>Mon, 10 Nov 2025 03:05:00 +0200</pubDate>
-      <guid>http://localhost:1313/categories/thealchemyofgamemusicthemes/</guid>
-      <description>&lt;p&gt;In &amp;lsquo;The Alchemy of Game Music Themes&amp;rsquo; we&#xA;compose using the knowledge we learned from&#xA;&lt;a href=&#34;http://localhost:1313/categories/crypticgamemusictheorygems/&#34;&gt;Cryptic Game Music Theory Gems&lt;/a&gt; (game guitar covers).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Counterpoint Chronicles</title>
+      <title>CounterpointChronicles</title>
       <link>http://localhost:1313/categories/counterpointchronicles/</link>
-      <pubDate>Mon, 10 Nov 2025 03:03:00 +0200</pubDate>
+      <pubDate>Sun, 26 Oct 2025 23:17:00 +0200</pubDate>
       <guid>http://localhost:1313/categories/counterpointchronicles/</guid>
-      <description>&lt;p&gt;&amp;lsquo;Counterpoint Chronicles: Game Composing &amp;amp; Theory Talk&amp;rsquo;&#xA;is the title of my ongoing series of twitch streams, in which:&lt;/p&gt;</description>
+      <description></description>
+    </item>
+    <item>
+      <title>TheAlchemyOfGameMusicThemes</title>
+      <link>http://localhost:1313/categories/thealchemyofgamemusicthemes/</link>
+      <pubDate>Sun, 26 Oct 2025 23:17:00 +0200</pubDate>
+      <guid>http://localhost:1313/categories/thealchemyofgamemusicthemes/</guid>
+      <description></description>
     </item>
     <item>
       <title>Final Fantasy I</title>

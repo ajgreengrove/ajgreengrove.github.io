@@ -18,6 +18,9 @@ sequence and a classic ii-V-(I reinterpreted as III) turnaround.
 I recommend skipping with the use of timestamps,
 unless the composing process itself interests you or maybe viewing in the background.
 
+This is more of a prototype, but it is the first installment
+of a live-composition series called [The Alchemy of Game Music Themes]({{< relref "thealchemyofgamemusicthemes" >}}).
+
 Originally the idea was to just to simply
 use the music theory concepts of the Final Fantasy Prelude.
 But the truth is, I composed the first half on a whim,
