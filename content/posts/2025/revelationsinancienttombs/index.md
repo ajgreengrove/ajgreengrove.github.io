@@ -72,7 +72,7 @@ bass = \relative c { c1 b a g f }
 {{< figure src="/images/2025/04-09-revelations-in-ancient-tombs-feature.webp" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Revelations in Ancient Tombs\" Motif" >}}
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/X-PEnlCeaaw" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/X-PEnlCeaaw" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <details>
 <summary>References</summary>

@@ -74,7 +74,7 @@ melody = \relative b { r8 b e b' fs }
 {{< figure src="/images/2025/04-14-crystalline-chaotic-caves-feature.webp" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Crystalline Chaotic Caves\" Motif" >}}
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/xxoNCziFx78" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/xxoNCziFx78" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <details>
 <summary>References</summary>

@@ -76,7 +76,7 @@ bass = \relative f, { f1 g e a d g, c~ c }
 
 Compare these to the 2-up-3-down sequence heard in the post
 [Exploring "Wherever The Wind Takes Me"]({{< relref "01-08-wherever-the-wind-takes-me" >}})
-of in this same album,
+of in this same collection,
 however, in that instance dorian modal harmony draws attention;
 I don’t find it a typical example of the bass movement.
 
@@ -90,7 +90,7 @@ and throw it out in the open later on.
 It’s time to set the sails.
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/fRXWmBxw2w8" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/fRXWmBxw2w8" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <details>
 <summary>References</summary>

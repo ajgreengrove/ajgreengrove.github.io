@@ -72,4 +72,4 @@ it should be read as a descending-fifths sequence
 with inversions to my ear.
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/MRBYgu4i4-s" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/MRBYgu4i4-s" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

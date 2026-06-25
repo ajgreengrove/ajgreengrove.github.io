@@ -23,7 +23,7 @@ I'll slowly revisit and backlink posts to clarify things.)
 I came up with this piece after getting fed up
 with the nigh impossible choral-style anti-guitarisms in the post
 [Exploring "Angels Carried Me Away"]({{< relref "angelscarriedmeaway" >}})
-in this same album.
+in this same collection.
 To those familiar with early music improvisation concepts,
 here I list the scale-degree schemata (or partimento concepts)
 that I think might be useful for future improvisations.
@@ -77,4 +77,4 @@ but continues practically through the entire scale.
 In the 1:00 mark occurs a converging cadence.
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/t-HdAvsmOeM" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/t-HdAvsmOeM" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

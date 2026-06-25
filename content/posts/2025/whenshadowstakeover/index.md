@@ -13,7 +13,7 @@ tableofcontents = false
 When Shadows Take Over:
 the final
 "let’s explore dark, minor modal mixture"
-of this album.
+of this collection.
 
 (Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
 
@@ -32,7 +32,7 @@ By opening the seventh sonorities,
 I like to think of an analogy of applying more saturation
 to the harmonic palette.
 
-Referring to the many pieces of this album
+Referring to the many pieces of this collection
 "exploring dark, minor modal mixture":
 interestingly,
 the minor seventh sweetens the bvi:m7 in the 00:38 mark somewhat.
@@ -83,4 +83,4 @@ it actually acts as a
 or in other words the final harmony in the 1:54 mark.
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/Qt2TmBskB4U" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Qt2TmBskB4U" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

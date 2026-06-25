@@ -1,0 +1,2629 @@
+#+title: A J Greengrove's site - now since I'm ditching emacs and ox-hugo, otherwise hugo posts/date-slug-etc/blogpost.md is straightfoward but pandoc citeproc-or-other papis-export-bibliography.bib or .json is to-be-implemented
+#+author: A J Greengrove
+
+#+BIBLIOGRAPHY: ox-hugo-incls/bibliography.bib
+#+CITE_EXPORT: csl
+#+HUGO_BASE_DIR: hugo-ajg
+#+OPTIONS: d:t
+#+SETUPFILE: "./ox-hugo-incls/macros.org"
+
+* /posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /posts
+:END:
+
+** DONE How I Compose Fakebit with Hidden Polyphony
+CLOSED: [2026-01-06 Tue 13:25]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: how-i-compose-fakebit-with-hidden-polyphony
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/how-i-compose-fakebit-with-hidden-polyphony-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents true
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-01-06 Tue 13:25] \\
+  Initial post.
+:END:
+
+At first we put hidden polyphony, arpeggios etc into simple terms.
+Then we compose broken-chord or "arpeggiated" music with it.
+I compose with fakebit sounds (think chiptune but freer)
+and start by whipping up a triangle wave pluck synth instrument for this.
+
+*** Explanations
+
+- What are arpeggios or broken chords? :: Instead of playing all the notes
+  or keys or strings simultaneously as a "block chord,"
+  we play *one note at a time,* thus "breaking the chord."
+  Arpeggio comes from arpa, Italian for harp; referring to playing harp-like.
+
+- What is polyphony? :: When, say, a soprano girl and a bass guy sing distinct melodies simultaneously.
+
+- Now, what is hidden polyphony? :: Imagine a soprano girl and a bass guy
+  singing their *distinct melodies.*
+  Now imagine instrumentating these melodies for a bassoon
+  or whatever instrument unable to play many notes simultaneously.
+  Even if there's just one instrument,
+  the music of the bass & soprano voices can *still alternate.*
+  Or, it's like the soprano & bass have to sing in turns
+  within the limitations of the chosen instrument.
+
+- And fakebit or chiptune? :: To simplify, chiptune is a musical genre
+  which uses early computer chipset sounds, think *computer "bleeps and bloops".*
+  To satisfy purists, *fakebit takes inspiration* from those sounds but you don't
+  have to dig up your chipsets from the 80s/90s to be cool:
+  faking with modern software is enough.
+
+*** Instrumentation plan
+
+The hidden polyphony could be done with any instruments,
+but I thought a "soft"-sounding pluck,
+possibly with a delay/echo effect,
+would work well with the arpeggiated texture.
+
+- *Triangle wave pluck* synth instrument
+  - sound generation
+    - triangle wave oscillator. *Idea:* this is a rather *soft* sound,
+	nice for continuous arpeggios
+  - envelope, values in seconds
+    - attack: almost 0
+    - decay: to taste. *Idea:* the *decay is fast* in real world plucked instruments.
+	So for a natural envelope, decay should be faster than release.
+	But for a no-fuss approach, experiment or remove altogether by setting to 0.
+    - sustain: 0
+    - release: to taste
+  - *Note:* plucks tend to work really nice with a simple *delay / echo* effect,
+    as long as you get the resulting rhythm to sound nice
+
+*** Composition idea
+
+Here's the composition idea and explanations.
+
+#+name: fig:how-i-compose-fakebit-with-hidden-polyphony-feature.webp
+#+caption: Main compositional idea: hidden polyphony
+#+attr_html: :alt Displays the main compositional idea in musical notation
+[[/images/how-i-compose-fakebit-with-hidden-polyphony-feature.webp]]
+
+Figure explanation:
+- key = d minor (d=1)
+  - note head shows its scale degree number in current key/mode
+- *melody has hidden polyphony* and alternates between the hidden voices:
+  - v1 = voice one
+  - v2 = voice two
+
+*** Todo-list
+
+- haiku
+- calculate noOfMeas from tempo: wanted song length
+- change empty workspace && record guitar
+- listen to song w recd guitar: becomes proof (of [] promise plan formula)
+- "Please share if you found this helpful. Until next time."
+
+** DONE Guitar Campfire Stories (Game Music Pack) :@Portfolio:
+CLOSED: [2025-12-15 Mon 20:12]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: guitar-campfire-stories-game-music-pack
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/guitar-campfire-stories-game-music-pack-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-12-15 Mon 20:12] \\
+  Initial post.
+:END:
+
+Today I announce release of
+"Guitar campfire Stories", a game music asset pack.
+Specs:
+- guitar played by me
+- 17 looping tracks
+
+Here's a walkthrough video (sorry, the video compressed the audio.
+Please see links below video for true audio fidelity):
+
+{{{embedYoutube(61dTtBsRnmA)}}}
+
+Samplers and more info in the marketplaces:
+
+- itch.io https://ajgreengrove.itch.io/guitar-campfire-stories
+- game dev market https://www.gamedevmarket.net/asset/guitar-campfire-stories
+- unity asset store https://assetstore.unity.com/packages/audio/music/guitar-campfire-stories-342266
+- fab https://www.fab.com/listings/dab8609c-e989-4e1c-b462-bd5ce26b47f4
+
+** DONE The Woeful Melody of "Game Over" from "Final Fantasy I" :@FinalFantasyI:Descending5ths:
+CLOSED: [2025-11-15 Sat 21:14]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: woeful-skips-game-over-final-fantasy
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :toc true
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-11-15 Sat 21:14] \\
+  Added embedded video
+- State "DONE"       from "TODO"       [2025-11-08 Sat 02:56] \\
+  Initial post.
+:END:
+
+How is "Game Over" from "Final Fantasy I"
+able to evoke a sense of losing and game being over
+using a generic descending-fifths sequence?
+
+**** Prologue: Walkthrough and Guitar Cover Videos
+
+Here's if you prefer a video as a starting point:
+{{{embedYoutube(vMWEbC2hdrc,Woeful Skips - Game Over - Final Fantasy I NES)}}}
+
+To listen while we decrypt the music theory behind the soundtrack,
+here's my guitar cover video:
+{{{embedYoutube(G1lJSlKqi4A,Game Over - Final Fantasy I Pixel Remaster Ver - Guitar Cover - Music Theory)}}}
+(I mixed up the PS1 and Pixel Remaster versions bad time: it shows in the text overlay in the bottom-left corner. Sorry!)
+Here's timestamps to explore this audio dungeon:
+(numbers denote scale degrees in D minor):
+#+begin_verse
+0:00 Dominant with counterpoint
+0:03 The descending-fifths sequence begins
+0:04 The 1st melodic leap down, then minor second up (5 6)
+0:06 The melody uses minor seconds (2 3 2), then leap down
+0:10 After a leap down, minor seconds (3 2) in the lower octave
+0:12 Half cadence
+0:14 The second half begins: it is more ornamented (I made guitaristic choices, mind you).
+0:22 This is the cadence they changed later into VI V i what I play here.
+0:31 I loop the piece as typical in game soundtracks.
+#+end_verse
+Deeper floors with more details await in the blogpost down below.
+
+**** Differences in NES, PS1 & Pixel Remaster Versions
+
+The composition of "Game Over" in the PS1 version of "Final Fantasy Origins" (2003)
+differs from the NES (1987) and the Pixel Remaster version (2021),
+the latter which are more alike to each other.
+Save for the dominant chord in measure 1,
+and last cadence, the piece follows a descending-fifths sequence.
+Regarding the last cadence, in the PS1 version,
+we have bVI V7 i cadence,
+whereas the NES and Pixel Remaster versions sport a more contrapuntal
+or voice-leading based #vi-half-dim7 V7 i.
+
+Having said that, here's the differences as a comparative list:
+- NES (1987)
+  - instruments: NES sounds
+  - register: comparatively high
+  - final cadence: #vi-half-diminished-7th, V, i
+- PS1 (2003)
+  - instruments: low strings, double bass and cello taking reign
+  - register: comparatively lower
+  - final cadence: (b)VI, V, i
+- Pixel Remaster (2021)
+  - instruments: reeds, being a lamentative oboe and possibly clarinet
+    and in the second "loop" we have additionally flute
+  - register: in the first half, like NES;
+    in the second, in a (shriekingly) high register
+    typical of second halves in the Pixel Remaster arrangements
+    (as in Matoya's Cave; Town Theme etc).
+  - final cadence: #vi-half-diminished-7th, V, i
+
+**** The Woeful Downward Leaps & Minor 2nds
+
+In my opinion, it's actually the woeful melodic leaps that do the trick here.
+There's leaps down and there's minor seconds:
+in the following figure, the downward lines between notes
+(typically used for glissandi) denote melodic skips down,
+whereas the brackets denote stepwise minor second interval movement.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/game-over-final-fantasy-i-melody.png
+  #(define Ez_numbers_engraver
+    (make-engraver
+     (acknowledgers
+      ((note-head-interface engraver grob source-engraver)
+       (let* ((context (ly:translator-context engraver))
+              (tonic-pitch (ly:context-property context 'tonic))
+              (tonic-name (ly:pitch-notename tonic-pitch))
+              (grob-pitch
+               (ly:event-property (event-cause grob) 'pitch))
+              (grob-name (ly:pitch-notename grob-pitch))
+              (delta (modulo (- grob-name tonic-name) 7))
+              (note-names
+               (make-vector 7 (number->string (1+ delta)))))
+        (ly:grob-set-property! grob 'note-names note-names))))))
+
+  \layout {
+    indent = 1.2\cm
+    short-indent = 0.6\cm
+    %% ragged-right = ##t
+    \context {
+      \Voice
+      \consists \Ez_numbers_engraver
+      \consists Horizontal_bracket_engraver
+    }
+  }
+
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+
+  #(set-global-staff-size 40)
+
+  global = {
+    \key d \minor
+    \time 4/4
+    %% s1*2 \break s1*2
+  }
+  seer = \relative f' {
+    \easyHeadsOn
+    \voiceTwoStyle %% \voiceOneStyle
+    f4.\glissando a,8\startGroup bf4\stopGroup g'8 f
+    e8\startGroup f e\stopGroup\glissando g, a2
+    d4.\glissando f,8\startGroup e2\stopGroup b'8 d
+    d8\startGroup cs\stopGroup e2
+  }
+  alchemist = \relative a' { \easyHeadsOn \voiceThreeStyle s2 }
+  thief = \relative f { \easyHeadsOn \voiceFourStyle s2 }
+  barbarian = \relative f {\easyHeadsOn \voiceTwoStyle s2 }
+  \score {
+    <<
+      \new PianoStaff <<
+        \new Staff \with {
+          instrumentName = \markup{\center-column{ "Seer" }} %% { "Seer" "Alchemist"}}
+          shortInstrumentName = \markup{\center-column{"S"}} %%{"S" "A"}}
+        } <<
+          \clef "treble_8"
+          \global
+          \new Voice { \voiceOne \seer }
+          %% \new Voice { \voiceTwo \alchemist }
+        >>
+        %% \new Staff \with {
+        %%   instrumentName = \markup{\center-column{"Thief" "Barbarian"}}
+        %%   shortInstrumentName = \markup{\center-column{"T" "B"}}
+        %% } <<
+        %%   \clef "bass"
+        %%   \global
+        %%   \new Voice { \voiceOne \thief }
+        %%   \new Voice { \voiceTwo \barbarian }
+        %% >>
+        \new TabStaff \with {
+          instrumentName = "Gtr"
+          shortInstrumentName = "G"
+          \override Glissando.style = #'none
+        } <<
+          \new TabVoice { \seer }
+          %% \new TabVoice { \alchemist }
+          %% \new TabVoice { \thief }
+          %% \new TabVoice { \barbarian }
+        >>
+      >>
+    >>
+  }
+  \paper {
+    system-separator-markup = \slashSeparator
+  }
+#+end_src
+#+end_details
+
+#+name: fig:game-over-final-fantasy-i-melody.webp
+#+caption: Final Fantasy I Game Over Melody: Leaps & Minor 2nds
+#+attr_html: :alt Displays the melody, especially leaps & minor 2nds under discussion in musical notation + tablature.
+[[/images/game-over-final-fantasy-i-melody.webp]]
+
+I find it fascinating how the register,
+especially when comparing the low rumbling strings of the PS1 version,
+affects the atmosphere compared to the higher registers
+of the NES and Pixel Remaster versions.
+The latter could be called more airy, softer, lighter.
+The PS1 one more lamentful, mournful, "pressing" & heavy.
+I haven't written extensively on game over themes,
+but intuitively I'd say there's a myriad of approaches
+to compose an effective one.
+In Final Fantasy's case, since the party has been wiped out,
+it perhaps evokes imagery of "a story came to an end".
+
+As always, I will be composing my own test compositions based on this.
+Perhaps woeful skips utilizing the descending-fifths sequence as in
+my previous composition of which I wrote in [[*Exploring "It's Time to Set The Sails"]],
+which in itself utilized Forest Theme from "Terra Incognita",
+a PS1 Net Yaroze project game [cite:@Forest_Theme_Team_1997].
+
+**** Links
+
+Here's "Final Fantasy I Complete (Game Guitar Covers)", an updating playlist:
+{{{embedYoutubePlaylist(PLN2kCRRlVZAupp1wDVnDj6CrMik4xyPlp,Final Fantasy I Complete - Game Guitar Covers)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+** DONE A Not-How-To Compose a Map Theme with "Wrong Note" Arpeggios (Rescoring Shovel Knight / Opaloid Kingdom)
+CLOSED: [2025-10-26 Sun 23:17]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: nothowto-composing-arpeggios-map-theme
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/nothowto-composing-arpeggios-map-theme-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-10-26 Sun 23:17] \\
+  Initial post.
+:END:
+
+In this Not-How-To anti-tutorial,
+I compose game music (map theme) inspired by the "Wrong-Note" prelude,
+as I wrote & videoed in
+'The "Wrong-Note" Prelude of Final Fantasy I (1987 NES)',
+nowadays under "Guitarist Game Composer" moniker.
+After the arpeggios there's an ascending-fifths (aka "mountain")
+sequence and a classic ii-V-(I reinterpreted as III) turnaround.
+I recommend skipping with the use of timestamps,
+unless the composing process itself interests you or maybe viewing in the background.
+
+This is more of a prototype, but it is the first installment
+of a live-composition series called
+("The Alchemy of Game Music Themes":
+nowadays by "Guitarist Game Composer").
+
+Originally the idea was to just to simply
+use the music theory concepts of the Final Fantasy Prelude.
+But the truth is, I composed the first half on a whim,
+and while it's not musically all that complex,
+it would be a hindrance to analyze everything to full extent here.
+As an example of getting bogged down is the very first harmony:
+as a Bbmaj7/F, it shares both qualities of starting with VI
+but also starting on a III because of the bass.
+Discussing these kinds of details further shall await later times.
+
+{{{embedYoutube(VehkNu6WK90,Not How To Compose - Game Map - Wrong Note Arpeggios - Rescoring Shovel Knight and Opaloid Kingdom)}}}
+Timestamps to skip the video:
+#+begin_verse
+0:00:00 Revenge of the Nyancat -climax teaser (episode starts in 25:16)
+0:00:02 Preview (notice the fakebit sounds, almost like chiptune)
+0:00:12 Setting up & "explaining" (chaotically) the premise the livestream
+0:01:00 Shovel Knight
+0:01:20 Bass line (+ chaotic talking)
+0:02:08 Playing the ascending-fifths ("mountain") sequence with the guitar
+0:02:46 So Milton Babitt once mentioned Schoenberg not laying out an overall plan for a composition: and because of that, never finishing it.
+0:04:29 Playing the beginning arpeggios tentatively with the guitar
+0:04:45  @StevenMelin   once explained: in games, the sounds fill the middle frequencies, so us composers fill the highs and lows
+0:05:07 Sketching the ascending-fifths ("mountain") sequence but didn't know where it would harmonically land us
+0:05:36 Before "palm mute", Fernando Sor used "etouffez": think palm mute with the left hand(!). Sounds soft & cool!
+0:07:16 Too detailed to fully cover here, but in short: the question of the sequence's step with the semitone is placed in the ascending-fifths ("mountain") sequence
+0:08:18 Testing the plagal IVb3 but didn't work
+0:08:45 Sketching the final turnaround
+0:09:54 Initial mention of counterpoint: I finished the more rich texture after the livestreams that had already dragged on quite a while
+0:11:14 The second live stream begins. Trying to explain things more clearly, didn't really.
+0:12:38 Trying to compose a theme that works in menu and map: actually, worked better in game "Opaloid Kingdom"
+0:16:00 Sketching the end of the game audio loop
+0:17:18 This is when tiredness starts to kick in, and chaos emerges.
+0:17:57 Elision: the B part elides into the C part without a clear boundary (not demonstrated clearly here).
+0:20:31 Sketching the percussive aspects of this piece
+0:21:50  @StevenMelin   once explained: when game music matches the "rhythms": actions & movements etc of the game, that's good
+0:22:17 Shoving "figueta" with the guitar: instead of alternate picking. Better for weaving improvised counterpoint.
+0:24:33 Beverage Break begins
+0:25:16 Revenge of the Nyancat -episode begins
+0:25:58 Revenge of the Nyancat -episode climax
+0:27:39 I understood to make it map theme, not menu
+0:29:44 The guitar is not... (? Guess the mystery!) -episode
+0:32:27 Using Csound's flanger opcode for the guitar. Nice.
+0:34:01 I realized this piece works better in Opaloid Kingdom than Shovel Knight
+0:34:41 Final Results Preview Screen
+#+end_verse
+
+After an insane amount of (re-)editing,
+I'll just leave this as is:
+as I said above, there's just too much to cover.
+I'll break down the stuff into bite-sized pieces
+and cover all of them eventually,
+re-editing this post as I go.
+
+** /posts/2025 (frag, but don't use /yyyy: because seo)
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: 2025
+:END:
+*** DONE The "Wrong-Note" Prelude of Final Fantasy I (1987 NES) :@FinalFantasyI:Romanesca:
+CLOSED: [2025-10-24 Fri 21:44]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: 08-30-prelude-nes-ver-final-fantasy-i
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :toc true
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-10-24 Fri 21:44] \\
+  Heavy editing, an almost rewrite of the post.
+- State "DONE"       from "TODO"       [2025-08-30 00:00]
+:END:
+
+The very original NES prelude way back in 1987
+from Final Fantasy I behaves differently
+from the ones to follow,
+as we'll se Nobuo himself demonstrating.
+I hear a swirling kaleidoscope in the inverted arpeggios,
+so I cover them with the guitar.
+Let's peek into the colored glass
+and some untapped game music potential.
+
+
+**** Prologue: Walkthrough and Guitar Cover Videos
+
+Here's if you prefer a video as a starting point:
+{{{embedYoutube(Dhymgetrx-c,Wrong Notes in - Prelude - Final Fantasy I NES)}}}
+
+To listen while we decrypt the music theory behind the soundtrack,
+here's my guitar cover video:
+{{{embedYoutube(8dz8EhveGHM,Prelude - Final Fantasy I NES Ver - Guitar Cover - Music Theory)}}}
+Here's timestamps to explore this audio dungeon:
+#+begin_verse
+00:00 The arpeggios begin. Notice avoiding the lowest note (programming error in NES)
+00:12 Mr. Dudley reads the ensuing harmonies as a '50s Progression (I vi IV V), which I challenge
+00:36 Victory topos AKA double backdoor cadence (lol) AKA Mario cadence = bVI bVII I#3
+00:48 Loops "from beginning", as customary in game soundtracks
+#+end_verse
+Deeper floors with more details await in the blogpost down below.
+
+When I covered this with the guitar,
+for starters, I had to "double-wrap"
+the arpeggio to fit it in the fretboard.
+You might want to compare my version to more canonical versions
+(such as Harpsibored's example below).
+
+**** The Key is B-flat Major (not C)
+
+[[https://linktr.ee/harpsibored][Harpsibored]] did a nice-sounding harp cover in the original key,
+albeit didn't introduce the weird arpeggio "skips"
+I'll soon discuss in more depth:
+for an audio link see cited URL [cite:@Prelude_From_Nobuo_2022].
+Most of the comments do not discuss the skip,
+only one does. However, it seems that they
+perceive the key signature of B-flat major
+dramatically differently from C.
+I'm sure it's different, but since it is so subjective
+and doesn't really lend itself to further discussion
+relating to compositional quirks, I digress.
+
+**** Arpeggio: a Mistake or a Happy Accident?
+
+In the PS1 (2002) and Pixel Remaster (2021) versions of Final Fantasy I
+the prelude doesn't differ notably, but the NES (1987) is a curious case.
+
+This excellent review discussing Final Fantasy I soundtrack
+is baffled whether Nobuo knew it would later be for the harp
+and why it's "choppier" and whether it had to do with the NES [cite:@All_Sounds_of_F_Jaime].
+
+An [[https://x.com/Genki_JPN/status/1957479487555403805][X/Tweet by Genki]] links to a videoclip of a series called
+"Nobuo Uematsu special talk show vol.2" and the clip seems
+to have originated from a twitch livestream [cite:@Nobuo_Uematsu_r_Genki_2025].
+In the clip Nobuo demonstrates with the piano how the arpeggio should start
+from the lowest note, but starts with an immediate skip instead, as follows:
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/08-29-final-fantasy-i-prelude-arpeggio.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative bf, { bf_"should be" c d f \bar"||" bf_"is instead" c, d f }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble_8" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:08-29-final-fantasy-i-prelude-arpeggio.webp
+#+caption: Final Fantasy I Prelude Arpeggio: Intended vs. Outcome
+#+attr_html: :alt Displays the first arpeggio under discussion in musical notation + tablature.
+[[/images/2025/08-29-final-fantasy-i-prelude-arpeggio.webp]]
+
+The tweet is phrased so that there's a "wrong note" in the NES Prelude.
+In the replies, people get confused hunting for the wrong note
+but not finding any: they don't "understand what the error is".
+Or "can't place the wrong not at all".
+
+Now I think, a correct phrasing of said error is difficult,
+it would be something like "wrong octave shifts in the arpeggio"
+or "the arpeggio direction changes happen in the wrong places".
+
+Gabriel Vieira (@ghcvtunikko) helpfully replied with a translated english spoken audio.
+According to Nobuo's way of phrasing I understand that the lowest
+note/sound(s?) were missing from the program (of the prelude):
+"this is what ends up playing" and thus the arpeggios begin from the higher notes.
+
+What he actually wanted was what would be corrected for later instances,
+from Final Fantasy II onwards.
+
+He calls it a very unnatural arpeggio,
+and I would agree to an extent that it is musically challenging.
+Then he says it has a strangely unique flavor,
+and the interviewer/host proceeds to say "it's a happy accident, one could say".
+But I would also see it as a refreshing compositional challenge:
+I got so inspired by this I live streamed composing a vgm piece
+filled with wrong notes and arpeggios with erroneous octave shift placements.
+
+Also, TooMuchCoffeeDrunk ⩗ (@much_drunk) says
+"It sounds better with the wrong note.";
+I would say, it sounds more interesting,
+or as Nobuo and the interviewer/host discuss,
+J (@Zeppelin041) provides an ultimatum:
+"lol, there’s a wrong note in all music, that’s what makes it music.",
+so true, I'd add.
+
+Before demonstrating with piano,
+Nobuo mentions that the programmer Nasir Gebelli
+works constructing block of flats or something.
+Now I have to say, whether mistake or not,
+in my book it's a musically genius one.
+
+I wouldn't had found this delicious easter egg
+without the excellent
+[[https://finalfantasy.fandom.com/wiki/Prelude_(theme)#Behind_the_scenes][Final Fantasy Fandom / Wiki]].
+
+**** Harmony: How Similar is The '50s Progression to The Romanesca?
+
+I found an interesting hearing of the harmony
+[cite:@Evolution_of_a_Sam_Du_2018]:
+
+#+begin_quote
+Prelude is written in the key of Bb major
+and mostly consists of a set of arpeggiated chords
+known collectively as the ’50s progression
+(ubiquitous in ’50s/’60s pop music,
+but also pops up in classical music as far back
+as the 17th century)
+#+end_quote
+
+Dudley didn't cite this one,
+but it didn't take me long to find
+that it is the '50s progression wikipedia article
+that cites the 17th-century classical music,
+I was sad to find it heavily lacking in proper citations.
+And no further clarification for Pachelbel's Canon,
+which would had help me tremendously in my further
+Final Fantasy I soundtrack discussions. ; )
+
+I removed the wikipedia 17th-18th century examples here but
+do argue that there's a clear link between
+- the Romanesca,
+- Pachelbel's canon,
+- the fashion in harmonic progression of the 1950s-60s,
+- and Nobuo Uematsu's Final Fantasy I soundtrack.
+
+The Romanesca is a beast - spanning centuries -
+so it deserves an article of its own.
+However, in case you're wondering,
+Gjerdingen's
+[[https://music.arts.uci.edu/abauer/5.2/readings/Gjerdingen%20_Music_in_the_Galant_Style_Ch_2.pdf][Music in the Galant Style (Chapter 2: Romanesca) PDF]]
+is actually publicly available from his monumental book,
+also featuring Pachelbel's Canon as an example
+[cite:@Music_in_the_Ga_Robert_2007].
+
+I have explored Romanesca plenty (in my compositions too),
+as can be browsed in my [[https://www.ajgreengrove.com/tags/romanesca/][Posts tagged as Romanesca]],
+but be warned, I'm referring to the Romanesca family of schemata,
+not Galant-flavored instances in particular.
+
+There's another aspect to be discussed, though:
+it is the placement of the harmonies that gives
+this Prelude musical depth, I argue.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/08-29-final-fantasy-i-prelude-50s-progression.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  chordprog = \chordmode { bf1 g:m bf g:m ef/g f/a af:maj7 bf:maj7 }
+  bassline = \relative c {
+    bf1_"(in C-major)" | g |
+      bf_"* 1950s Progression" |
+    g | g | a_"* (ends)"
+    gf | af |
+  }
+  \score {
+    <<
+      \time 4/4
+      \new ChordNames { \chordprog }
+      \new Staff { \clef "bass" \bassline }
+      \new TabStaff \with {} <<
+        \new TabVoice { \bassline }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:08-29-final-fantasy-i-prelude-50s-progression.webp
+#+caption: Final Fantasy I (intended) Prelude Arpeggios: 50s Progression?
+#+attr_html: :alt Displays the bass notes (reduction) under discussion in musical notation + tablature.
+[[/images/2025/08-29-final-fantasy-i-prelude-50s-progression.webp]]
+
+Isn't the 50s progression a schema
+where the I vi IV V starts on a hypermetrically stronger placement?
+To clarify, either it would start at measure 1 as an "opening gambit",
+or then start at measure 5, the F and G would function cadentially stronger?
+
+The of Prelude ends with the last two measures having bVI and bVII,
+and our dear friend has many nicknames, at least
+the Mario Cadence for game composers
+and the double backdoor cadence for pop/jazz, I'd imagine.
+
+But in academic circles
+it is known as the victory topos.
+Let me paraphrase on video game toposes,
+translated to english:
+"the essential feature is
+major chords rising in three sequential whole steps:
+thus, IV V VI#3 uses the victorial topos,
+as heard in the Main Theme of Genshin Impact.
+The difference is the goal: in Mario it's the tonic (I),
+in Genshin Impact the topos takes us away from the tonic
+[cite:@Topiikka_videop_Josef_2024 p. 21].
+
+**** The "Story" of The Prelude in The Character Creation Screen
+
+I have, for a long time, planned to write a blogpost,
+could be named something like
+"the mandatorily sad menu music".
+Point being, many good game menu themes have a sad,
+melancholic, or perhaps nostalgic feel to it.
+Think Dearly Beloved from Kingdom Hearts [cite:@Dearly_Beloved_Yoko_S_2002]
+or The Promise from Final Fantasy XIII [cite:@Final_Fantasy_X_Masash_2010].
+
+Instead of the 50s progression,
+I hear the first half as (in roman numeral harmonic notation)
+I vi I vi, and second as IV/6 V/6 bVImaj7 bVIImaj7.
+The ingenuine part is that the IV-V movement is,
+for a lack of better term, "symmetrical" to the bVI bVII part.
+A music theorist familiar with Neo-Riemannian way of thinking
+could probably describe it as a transformation in algebraic terms.
+Feels like alchemy to me.
+
+#+name: fig:08-29-final-fantasy-renaissance-party-creation.webp
+#+caption: Final Fantasy Renaissance - Party Creation Screen
+#+attr_html: :alt Displays the character creation screen from Final Fantasy Renaissance: Lancer (Renaissance-exclusive!), Thief, Monk and Red Mage.
+[[/images/2025/final-fantasy-renaissance-party-creation.webp]]
+
+But in simple terms, the first half, in a way, descends; and after the IV/6
+the second half ascends. It's like a statement pretending to be a blank canvas;
+just like the character creation screen gives the illusion of a blank state,
+but in reality the character creation can be a playable experience
+or a miniature adventure in itself.
+Especially in Final Fantasy I (and [[https://www.rengames.us/ffr][Final Fantasy Renaissance]]!).
+
+On how the compositional choices affect the game,
+this "Review by Jaime" from Square Enix Music Online
+makes good points: at first he mentions that
+the pieces do *not end on a strong cadence,*
+so as to make the loop seamless
+[cite:@All_Sounds_of_F_Jaime].
+It might seem obvious,
+but the reason I wanted to point this out is that
+Eric Heberling's Elder Scrolls II: Daggerfall soundtrack
+is the most obvious use of this technique,
+since in many of the tracks
+the final dominant harmony remains for multiple measures.
+In Nobuo's case, he would vary the techniques
+as the Final Fantasy series would go on.
+
+There's something I would like to quote now,
+to keep in mind for future writings (emphasis mine):
+
+#+begin_quote
+From the basic foundation laid by these two soundtracks,
+the main evolution would come from increasing
+the particularization of the themes —
+different themes for important areas, characters, etc. which,
+although *not present here,*
+will slowly appear beginning already with the third game on the franchise
+(but that's another story which must be told in another time...)
+--- Jaime (squareenixmusic.com)
+#+end_quote
+
+This, dear readers, continues to baffle me and is
+a topic worthy of later discussions.
+
+The review makes many other good points about Final Fantasy II
+and the Nintendo era of the series,
+but I focus strictly on the first installment.
+
+In my first live stream,
+I use this technique to twist and turn
+my arpeggios down and up like in this original NES prelude
+to compose my own game soundtrack.
+
+**** Links
+
+If you prefer music streaming distributors: Spotify and the like,
+here's a "smart Link" for this "audio dungeon"
+(apple music must be searched):
+
+https://snd.click/a-j-greengrove-250825
+
+Here's "Final Fantasy I Complete (Game Guitar Covers)", an updating playlist:
+{{{embedYoutubePlaylist(PLN2kCRRlVZAupp1wDVnDj6CrMik4xyPlp,Final Fantasy I Complete - Game Guitar Covers)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Single Unveiled: "Prelude (NES Ver. Final Fantasy I)" :@FinalFantasyI:
+CLOSED: [2025-10-13 Mon 13:04]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: 08-29-single-release-prelude-nes-ver-final-fantasy-i
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-10-13 Mon 13:04] \\
+  Cleaned up writing: added an addendum story.
+- State "DONE"       from "TODO"       [2025-08-29 00:00]
+:END:
+
+Let's Play Final Fantasy I - with Guitar!
+"Prelude" (NES Version specifically) and "Game Over" for starters.
+Konsta Airisto's mage art captures nicely the
+hidden music theory wizardries in the game's soundtrack.
+I now explain the journey that awaits us.
+
+- I'll write a short music theory blogpost for each of the game soundtracks.
+- Then I use that knowledge to compose custom game music,
+  and learn something new about enhancing games with music;
+- filling the game composer's "zibaldone" tome;
+  a quest I previously declared in the post
+  [[*"Wherever The Wind Takes Me": a New Collection]] .
+
+The choice of Final Fantasy I vs. early music theory is not a coincidence. ; )
+
+As usual, to peek into the 'audio dungeon explorations':
+you can access the streams with "smart Link"
+(apple music requires a search):
+
+https://snd.click/a-j-greengrove-250825
+
+#+name: fig:08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp
+#+attr_html: :alt A mage's face that is lit with a spell, perhaps arcane fire
+#+caption: "Prelude (NES Ver. Final Fantasy I)" Single cover by Konsta Airisto
+[[/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp]]
+
+And as before, as I write of these 19(+?) dungeon explorations,
+you can find the automagically filling list with short summaries in:
+Final Fantasy I (broken link, deleteme: this is Guitarist Game Composer stuff).
+In fact, that category page gets updated with any FF1 -related blogposts.
+
+Why Final Fantasy I? Just like V,
+it perfectly captures the idea of a magical land,
+with the damsel in distress you save from the dragon,
+except this time he's an evil knight named Garland.
+Theres' other reasons:
+
+- The fact that it took inspiration from Dragon Quest,
+  which we can possibly discuss later
+- We have especially the
+  NES (1987), PS1 (2002) and Pixel Remaster (2021) versions,
+  which provide a nice comparison point for advances in soundtrack styles,
+- The composer being Nobuo Uematsu,
+  who is rightfully called a grandfather of video game composing
+
+This recording is captured with Csound / Ecasound command line magic
+to capture the guitar's tunes and mix the music.
+
+**** Updates
+
+Addendum story: I had already recorded almost all of Final Fantasy I,
+but then my laptop broke;
+stupid me did not have a backup system robust enough.
+Now I'm a happy user of B2 Backblaze (just 1 CLI command and backup begins!)
+but I thought screw it, let's follow the waterfall release model to get started already.
+
+*** DONE Gene Boggs - Eponymous (Featuring A J Greengrove) Album Release
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: geneboggs-eponymous-featuringajgreengrove-albumrelease/
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-23-geneboggs-eponymous-featuringajgreengrove-albumrelease-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-23 00:00]
+:END:
+
+"Eponymous:" an almost unlikely combination of electronica
+and mellow guitars.
+
+I (re-)compiled a youtube playlist of the song audios:
+
+{{{embedYoutubePlaylist(PLN2kCRRlVZAsyKmYifOcWTdS4XzmQgkQv)}}}
+
+Minimal structures and textures meet the guitar
+that phrases longer melodic arcs.
+Delicate synths and recorded instruments meet plucked nylon strings.
+Hope you enjoy. Gene Boggs is Epistemologist-at-large.
+The featuring artist A J Greengrove is a musician
+in the early music sense:
+one who plays, improvises, composes
+both on-the-spot
+and with longer processes.
+
+#+name: fig:04-23-geneboggs-eponymous-featuringajgreengrove-albumrelease-feature.webp
+#+caption: Gene Boggs - Eponymous (Featuring A J Greengrove) Album Cover
+#+attr_html: :alt A yellowish abstract album cover art for album 'Eponymous' by Gene Boggs.
+[[/images/2025/04-23-geneboggs-eponymous-featuringajgreengrove-albumrelease-feature.webp]]
+
+*** DONE Exploring "To the Land of No Return" :@WhereverTheWindTakesMe:Romanesca:
+CLOSED: [2025-04-18 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: tothelandofnoreturn
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-18-to-the-land-of-no-return-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-18 00:00]
+:END:
+
+To the Land of No Return:
+A postlude that opens with a minor romanesca
+and reflects on the opening track.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+The piece opens with a minor romanesca, and perhaps one anticipates a minor prinner in the 0:9 mark.
+However, what could also be thought of is the descending upper tetrachord.
+Heard this way, in that same 0:9 mark,
+we can hear the descending lower tetrachord.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(1523599948, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+What is nice is the analogy between the VI chord in the 0:7 mark
+and the bII chord in the 0:14 mark,
+and how the latter transmutes into the half-diminished harmony.
+The aforementioned bII or phrygian chord leaves its mark:
+in 0:24 the arpeggio motif is heard in bII (or its inversion,
+if that’s relevant).
+
+The 0:28 mark doesn’t exactly have
+a chromatically descending tetrachord schema,
+since it occurs in the middle voice instead of the bass.
+Interestingly, even if the bass lingers on scale degree 5,
+I can’t hear a ponte in it:
+rather, I hear roaming or seeking quality in the harmonies.
+In the 1:07 mark, the bII or phrygian occurs once more,
+affecting the descending lower tetrachord.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-18-to-the-land-of-no-return-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative fs' { fs4 g fs g a g fs g e }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-18-to-the-land-of-no-return-feature.webp
+#+caption: "To the Land of No Return" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-18-to-the-land-of-no-return-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(jGtOdWo97tQ)}}}
+
+*** DONE Exploring "When Shadows Take Over"         :@WhereverTheWindTakesMe:
+CLOSED: [2025-04-17 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: whenshadowstakeover
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-17-when-shadows-take-over-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-17 00:00]
+:END:
+
+When Shadows Take Over:
+the final
+"let’s explore dark, minor modal mixture"
+of this collection.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+I already listed the other pieces exploring similar concepts,
+this one included, in the post
+[[*Exploring "Strong Currents in the Unknown Waters"]].
+Now I will list some peculiarities for this piece.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(2124982864, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+The 0:33 mark flirts with a minor7th harmony,
+which will permeate the rest of this improvisation.
+By opening the seventh sonorities,
+I like to think of an analogy of applying more saturation
+to the harmonic palette.
+
+Referring to the many pieces of this collection
+"exploring dark, minor modal mixture":
+interestingly,
+the minor seventh sweetens the bvi:m7 in the 00:38 mark somewhat.
+The subsequent passages remind me of Nobuo Uematsu’s middle period style,
+something like Final Fantasy VI or VII soundtracks,
+to be honest.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-17-when-shadows-take-over-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative a { <a c e>1 <af c f> }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-17-when-shadows-take-over-feature.webp
+#+caption: "When Shadows Take Over" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-17-when-shadows-take-over-feature.webp]]
+
+FinallyFantasylly,
+I didn’t anticipate the 13 & +9 chords in the 1:02 mark?
+In the 1:33 mark an arpeggiated dominant
+introduces an allusion to augmented harmony,
+which is unheard of elsewhere in this piece;
+however, since we’re in the middle of repeating the opening material,
+this does provide some variance.
+
+The 1:50 mark introduces a half-diminished harmony:
+however, in my thinking,
+it actually acts as a
+"dominant for the natural phrygian closure",
+or in other words the final harmony in the 1:54 mark.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(Qt2TmBskB4U)}}}
+
+*** DONE Exploring "Goblins Lurking in the Darkness" :@WhereverTheWindTakesMe:Indugio:PedalPoint:
+CLOSED: [2025-04-16 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: goblinslurkinginthedarkness
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-16-goblins-lurking-in-the-darkness-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-16 00:00]
+:END:
+
+Goblins Lurking in the Darkness:
+the most blatant dungeon synth parody of this collection.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+This improvisation seems to explore
+what other voices can do
+while one voice performs 1-7; 7-1 "pendulum" movement.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(648247698, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+The piece opens with the static bass utilizing a pedal point schema.
+The 0:4 mark (see player below for playback)
+sees a 4-3 movement in the upper voice against the 7-1.
+The 0:6 mark sees a 6-5 movement similarly.
+
+The 0:9 mark is more embellished,
+but can be reductively said to be a 4-3 movement.
+In the 0:16 mark, the three voices utilize a simple faux bourdon -technique.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-16-goblins-lurking-in-the-darkness-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative a, { a8 e' a4 gs8 r4. }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+caption: "Goblins Lurking in the Darkness" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-16-goblins-lurking-in-the-darkness-feature.webp]]
+
+Perhaps more a question to the reader rather than a statement,
+can the 0:25 mark be read as an indugio,
+that is a suspenseful pedal point schema on scale degree 4?
+
+In the 0:43 mark we hear a ponte,
+that is a pedal point schema on scale degree 5.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(T9e-iHig5oM)}}}
+
+*** DONE Exploring "Angels Carried Me Away" :@WhereverTheWindTakesMe:7_6SuspensionChain:ConvergingCadence:Fonte:
+CLOSED: [2025-04-15 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: angelscarriedmeaway
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-15-angels-carried-me-away-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-15 00:00]
+:END:
+
+Angels Carried Me Away:
+choral style improvisation with the guitar = PITA.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+This was the first improvisation,
+that "started it all".
+As if all this "early music improvisation" concept
+hasn’t been years in the making...
+When it comes to more specific improvisation technique,
+this piece relies both on scale-degree schemata (or partimento)
+building blocks, but equally on weaving counterpoint.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(2580527851, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+After the motif descends in the melody,
+which I’ll now call the soprano voice,
+the bass hops in to create an implied 7-6 suspension chain,
+as the middle voice fills in the harmony.
+In the 0:10 mark,
+it is bass voice’s turn to state the (soprano) motif.
+
+As upon the motif in the bass starting,
+the dyad leaves open whether the harmony
+is a predominant ii or a dominant V43 already,
+but becomes a dominant thereforth.
+In the 0:16 mark we hear a converging cadence.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-15-angels-carried-me-away-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative e' { e4 d c b a }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-15-angels-carried-me-away-feature.webp
+#+caption: "Angels Carried Me Away" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-15-angels-carried-me-away-feature.webp]]
+
+In the 0:37 mark we hear a fonte,
+albeit to my ear in a rather sly or sleek,
+unobvious manner.
+
+The 1:03 mark,
+instead of closing the piece,
+introduces a quiescenza or final fall,
+depending on the reading.
+Admittedly, since I take the bass to scale degree 4,
+it dilutes the schema a bit. Whatever.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(rFTrItd_dQU)}}}
+
+*** DONE Exploring "Crystalline Chaotic Caves" :@WhereverTheWindTakesMe:PedalPoint:
+CLOSED: [2025-04-14 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: crystallinechaoticcaves
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-14-crystalline-chaotic-caves-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-14 00:00]
+:END:
+
+Crystalline Chaotic Caves:
+textural exploration,
+F.Sor etouffez,
+perhaps a dungeon synth parody
+or a game cave theme.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+The pop world calls the opening chord 9no3,
+or maybe less correctly sus2,
+but I’d call it a 424 interval pile or something similar.
+Anyway, I hear the opening chord as rather neutral,
+or not stating an obvious affect in baroque speak,
+befitting the possibilities of mystery awaiting in a cave,
+if you allow a little dungeon synth parody humour.
+This piece utilizes mostly a root pedal point; or drone if you will.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(683129298, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+In the 0:10 mark
+we hear Ferdinando Sor’s etouffez -technique,
+which this piece makes heavy use of as a device for timbral variety
+[cite:@Methode_complet_Fernan_1830].
+Etouffez isn’t the only technique instantiated here:
+save for the timbral change,
+this is an echo-like repetition of the arpeggio chord just heard.
+
+According to my intuitive knowledge,
+many game soundtrack cave themes utilizes echo-like compositional devices,
+but to prove this I will have to go through corpus and lay out the evidence.
+If I say I might be back, will we hear an echo back?
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-14-crystalline-chaotic-caves-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative b { r8 b e b' fs }
+  \score {
+    <<
+      \time 2/4
+      \new Staff { \clef "treble" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-14-crystalline-chaotic-caves-feature.webp
+#+caption: "Crystalline Chaotic Caves" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-14-crystalline-chaotic-caves-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(xxoNCziFx78)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Exploring "Windless Deserted Island"       :@WhereverTheWindTakesMe:
+CLOSED: [2025-04-13 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: windlessdesertedisland
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-13-windless-deserted-island-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-13 00:00]
+:END:
+
+Windless Deserted Island:
+"a first inversion harmony, or a phrygian clausula tenorizans?"
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+I see this improvisation very much as a study
+into the subtle sonority differences choosing inversions,
+root chords and such.
+I’ll try bite into the nitty-gritty details for once.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(1987743916, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+After the opening minor chord,
+we hear first inversion sonorities,
+or 36-chords if you will.
+This is contrasted in the 0:08 mark,
+with the harmony led by parallel 7th chords.
+
+In the 0:14 mark the melodic contour of the flourish
+draws an open 11th or perhaps a 13th chord without a third:
+to my ears, that omission is the most important detail in the flavor.
+The 0:20 mark starts with the beginning material,
+thus revealing a small-form period structure.
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-13-windless-deserted-island-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative g { g8 ef'4 g,8 af bf2 af4 g4 ef'2 d8 c d1 }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-13-windless-deserted-island-feature.webp
+#+caption: "Windless Deserted Island" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-13-windless-deserted-island-feature.webp]]
+
+The 0:28 mark, in contrast to the earlier material,
+closes the period in first inversion chord,
+with the bass taking the melodic motive.
+Notice how phrygian this moment sounds:
+one could interpret this as a tenorizans or tenor clausula,
+but perhaps not a cadence,
+since the moment is quite instabile.
+
+Afterwards the improvisation leans on the shift to the upper register.
+One could analyze further the harmonies occurring here,
+but in my opinion it suffices to say that
+previous material is assembled according to the taste of the improviser.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(lkvI1gsmTf8)}}}
+
+*** DONE Exploring "Strong Currents in the Unknown Waters" :@WhereverTheWindTakesMe:
+CLOSED: [2025-04-12 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: strongcurrentsintheunknownwaters
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-12-strong-currents-in-the-unknown-waters-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-12 00:00]
+:END:
+
+Strong Currents in the Unknown Waters:
+an arpeggio interlude, this time with dark, minor modal mixture.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+I stated pretty much everything,
+even regarding improvisation,
+in the above:
+I’ve also stated something similar
+in past blog posts
+regarding the pieces in this collection.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(1549624496, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+Examples of darker harmonies
+or modal mixture in this collection in the posts:
+[[*Exploring "Twilight in the Marshlands"]],
+[[*Exploring "Doppelganger Takes Over"]],
+[[*Exploring "Revelations in Ancient Tombs"]]
+and [[*Exploring "When Shadows Take Over"]].
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-12-strong-currents-in-the-unknown-waters-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative e {
+    \repeat unfold 2 { e,8 b' e fs g fs e b }
+    \repeat unfold 2 { g c ef f g f ef c }
+  }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-12-strong-currents-in-the-unknown-waters-feature.webp
+#+caption: "Strong Currents in the Unknown Waters" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-12-strong-currents-in-the-unknown-waters-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(bpFnglIh8cs)}}}
+
+*** DONE Exploring "It's Time to Set The Sails" :@WhereverTheWindTakesMe:2Up3Down:Descending5ths:Prinner:
+CLOSED: [2025-04-11 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: itstimetosetthesails
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-11-its-time-to-set-the-sails-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-11 00:00]
+:END:
+
+It's Time to Set The Sails:
+I ripped of an unknown composer’s “Forest Theme” from Terra Incognita,
+a Net Yaroze demo game.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+There isn’t really info on the composer
+of the soundtrack in Terra Incognita the Net Yaroze demo:
+[cite:@Forest_Theme_Team_1997].
+The first half is a descending tetrachord bassline.
+This can be found as a ground bass
+to be improvised upon in numerous chaconnes and passacaglias.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(1925270107, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+More than the descending tetrachord, I wanted to test
+specifically the 2-up-3-down moti del basso (sequence)
+in the chorus or B-part or latter part of the song;
+it is heard in the 0:32 mark.
+However, in the second step of the pattern,
+the vi scale-degree breaks the sequence (should be IV).
+
+I would call the sequence a bit of a chameleon:
+it could easily be replaced by a descending-fifths sequence,
+but it is “softer” in its movement, or perceived movement.
+In the 0:47 mark, that is the latter repetition of the B-section,
+I unfold it as a descending-fifths sequence.
+If I may contrast the word “soft” with the word “dynamical”,
+this time the bass acts in a more “dynamical” manner.
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-11-its-time-to-set-the-sails-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative e' { \mark B e1 d d c c b g~ g }
+  bass = \relative f, { f1 g e a d g, c~ c }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new Staff { \clef "bass" \bass }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+        \new TabVoice { \bass }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-11-its-time-to-set-the-sails-feature.webp
+#+caption: "It's Time to Set The Sails" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-11-its-time-to-set-the-sails-feature.webp]]
+
+Compare these to the 2-up-3-down sequence heard in the post
+[[*Exploring "Wherever The Wind Takes Me"][Exploring "Wherever The Wind Takes Me"]]
+of in this same collection,
+however, in that instance dorian modal harmony draws attention;
+I don’t find it a typical example of the bass movement.
+
+My theory is the sequence works in adventurous sea themes;
+prove me wrong! As 1-7-6-3 constitues the galant romanesca,
+I wonder what this 6-7-5-1 (in minor key) constitutes.
+I'd say it's a recurring schema in Japanese music,
+but I need more evidence to back up my claim;
+I’ll accumulate it from the seas
+and throw it out in the open later on.
+It’s time to set the sails.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(fRXWmBxw2w8)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Exploring "Goodbye Faraway Peaceful Town" :@WhereverTheWindTakesMe:Romanesca:
+CLOSED: [2025-04-10 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: goodbyefarawaypeacefultown
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-10-goodbye-faraway-peaceful-town-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-10 00:00]
+:END:
+
+Goodbye Faraway Peaceful Town:
+instead of a shepherd in Arcadia,
+I associate romanesca with town themes.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+The first half is stepwise romanesca,
+the latter half if in many repetitions the same as in Pachelbel’s canon.
+Later in the piece these latter halves tend
+to ride the descending-fifths sequence rollercoaster.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(835945168, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+In the 0:30 mark
+the texture starts to sound quite galant.
+However, I do not understand what the hell
+is the purpose of the major 7th sonority
+in the 01:00 mark and the subsequent 7th chords?
+It does saturate and sweeten things a bit,
+but incongruently so.
+Well, perhaps the cool ending minor-major7th sonority
+permits the use of such oversaturated harmonies.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-10-goodbye-faraway-peaceful-town-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative ef' { e1 d c b a }
+  bass = \relative c { c1 b a g f }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new Staff { \clef "bass" \bass }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+        \new TabVoice { \bass }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-10-goodbye-faraway-peaceful-town-feature.webp
+#+caption: "Goodbye Faraway Peaceful Town" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-10-goodbye-faraway-peaceful-town-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(g3rUl50uCdY)}}}
+
+*** DONE Exploring "Revelations in Ancient Tombs" :@WhereverTheWindTakesMe:Romanesca:
+CLOSED: [2025-04-09 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: revelationsinancienttombs
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-09-revelations-in-ancient-tombs-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-09 00:00]
+:END:
+
+Revelations in Ancient Tombs:
+what happens when you apply “chroma”,
+Gesualdo-style, on a romanesca?
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+To be fair, I should be talking more broadly of
+the Neapolitan school of composers, not Carlo Gesualdo alone.
+But we’re talking a niche within a niche within a... you get the point.
+However, this is a romanesca, with “chroma” applied to it:
+Elam Rotem describes chroma in his Early Music Sources YouTube video,
+and the topic is Carlo Gesualdo
+[cite:@Who_s_afraid_of_Elam_R_2021].
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(2252574976, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+Important to clarify, this improvisation is less early music stylistic,
+and applies more modern musical language;
+it is not a Gesualdo-style pastiche at all.
+However, improvisationally, the piece is very straightforward:
+it explores quasi-arpeggiating the underlying framework notes.
+
+For the future, I would love to come back regarding
+more experiments with the renaissance concepts of chroma
+and musica ficta, applied in unconventional places.
+I will have more to add here later.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-09-revelations-in-ancient-tombs-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative ef' { ef1 ds c b af }
+  bass = \relative c { c1 b a g f }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new Staff { \clef "bass" \bass }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+        \new TabVoice { \bass }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-09-revelations-in-ancient-tombs-feature.webp
+#+caption: "Revelations in Ancient Tombs" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-09-revelations-in-ancient-tombs-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(X-PEnlCeaaw)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Exploring "Prelude to a Foreboding"        :@WhereverTheWindTakesMe:
+CLOSED: [2025-04-08 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: preludetoaforeboding
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-08-prelude-to-a-foreboding-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-08 00:00]
+:END:
+
+Prelude to a Foreboding:
+The static use of the arpeggio motive creates tension;
+"trailer music" vibes.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+This could be called an etude or exercise for creating tension
+with slow voice leading.
+The harmonies could perhaps be traced to Opeth or Bossa Nova.
+In other words, the tropes are more reminiscent
+of more modern music than I usually focus on in this blog.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(2934217668, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+I might be able to come back and dissect this better
+after writing on Gabriel Faure’s use of Rule of The Octave.
+If you got curious, I recommend an article named
+Reimagining Fauré’s Harmony
+[cite:@Reimagining_Fau_Gilad_2023]
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-08-prelude-to-a-foreboding-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative e' { e8 a, b c e c b a }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-08-prelude-to-a-foreboding-feature.webp
+#+caption: "Prelude to a Foreboding" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-08-prelude-to-a-foreboding-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(OucfE7l1D3s)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Exploring "Autumn Moon Dance" :@WhereverTheWindTakesMe:ConvergingCadence:FalseRelation:Prinner:Romanesca:
+CLOSED: [2025-04-07 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: autumnmoondance
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-07-autumn-moon-dance-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2025-04-07 00:00]
+:END:
+
+Autumn Moon Dance:
+This dance-like motive unfolds
+in a "minor-variant romanesca".
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+I’ll now list building-blocks / schemata / improvisation-related stuff.
+The metrically stronger steps of the opening minor romanesca,
+that would be the first, third and fifths steps,
+or i, VI and iv -harmonies, receive a fifth leap,
+which would function as applied dominants had they leading tones.
+This reminds me of Elam Rotem’s Early Music Sources Video
+showing how to insert material in between the framework notes,
+or pillars of a renaissance romanesca
+[cite:@The_Romanesca_Elam_R_2018].
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(811887296, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+The 0:10 mark
+resembles a converging cadence somewhat,
+although the bass differs in its direction of approach.
+In the 0:27 mark we hear so-called commas;
+or cadential gestures if you will.
+In the 0:51 mark we hear a false relation (yay!).
+For some reason to my ears I don’t get converging cadence vibes
+as much as I did in the 0:10 mark.
+Might be the yet another way the bass approaches the target notes.
+The piece, bizarrely, ends in an out-of-the-blue plagal cadence
+in the 01:03 mark.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-07-autumn-moon-dance-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative g' { g4 fs8 e fs4 g fs d b c8 d e4 }
+  \score {
+    <<
+      \time 4/4
+      \new Staff { \clef "treble" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-07-autumn-moon-dance-feature.webp
+#+caption: "Autumn Moon Dance" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-07-autumn-moon-dance-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(Oo9s60DvxiU)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Exploring "Doppelganger Takes Over"        :@WhereverTheWindTakesMe:
+CLOSED: [2025-10-07 Tue 11:12]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: doppelgangertakesover
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-06-doppelganger-takes-over-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-10-07 Tue 11:12] \\
+  Update: added Prelude to Horror (from Demon's Crest, comp. Toshihiko Horiyama)
+  into list of motif I call "Doppelganger" for a lack of better name.
+- State "DONE"       from "TODO"       [2025-04-06 00:00]
+:END:
+
+Doppelganger Takes Over:
+The motif is one of my favorite fantasy tropes,
+albeit rare: it sounds quite dark.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+I’ll list some examples of the harmony that come to mind:
+- "Lumina’s Theme" by Naoshi Mizuta & Masashi Hamauzu
+  [cite:@Lumina_s_Theme_Naoshi_2013]
+- I think Opeth explores similar in Watershed,
+  perhaps Hessian Peel, latter half?
+- Also, even if Lord of the Rings the movie soundtrack
+  is not a diminished chord per se,
+  but an appogiatura instead,
+  that eerie-sounding voice-leading is still there. (TODO hunt down the reference)
+- Prelude to Horror from Demon's Crest [cite:@Prelude_to_Horr_Toshih_2005].
+  Although in that one the diminished (& 7th) resolve on a major I, not a minor one.
+  It is interesting to also note that at first we have a more "hollower" interval of diminished 5th,
+  and the second time a "fuller" diminished-7th chord.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(3883934046, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+Regarding the improvisation of this piece,
+the opening lends itself well to the usage of melodic minor sonorities,
+which are explored throughout the piece,
+along with some phrygian explorations.
+But improvisation stylewise I would put this
+in the Francesco Spinacino recercare preluding style,
+just like I did in the post [[*Exploring "Chilly Nights, Quiet Winds"]] in this same collection.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-06-doppelganger-takes-over-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative e' { e16 df bf a bf4 }
+  \score {
+    <<
+      \time 3/4
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-06-doppelganger-takes-over-feature.webp
+#+caption: "Doppelganger Takes Over" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-06-doppelganger-takes-over-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(03E3AJhiW7g)}}}
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+*** DONE Exploring "Twilight in the Marshlands"     :@WhereverTheWindTakesMe:
+CLOSED: [2025-04-05 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: twilightinthemarshlands
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-05-twilight-in-the-marshlands-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-05 00:00]
+:END:
+
+Twilight in the Marshlands:
+This motif, I feel is rather soundtrack-like, serious and heavy.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+The opening harmony could be explained in many ways,
+but for me i-bvi6-i suffices.
+I just wondered whether Chopin’s e minor prelude
+utilizes similar devices:
+melodic gestures accompanied with descending lines,
+either in the bass or the middle voices,
+some chromatic, some diatonic.
+Perhaps Michael Koch (En blanc et noir YouTube channel)
+could better explain some romantic schemata or compositional devices.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(4070923881, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+Anyway, the 1:25 mark
+plays with the ambivalence of the augmented triad,
+resolving perhaps unusually into the minor triad.
+For the future,
+I would be interested in exploring Carlo Gesualdo -style harmonies
+in the format of this piece;
+or neapolitan school of renaissance madrigal composers in general.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-05-twilight-in-the-marshlands-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative b {
+    \repeat unfold 2 { <b d>8 q <b cs> q }
+    \repeat unfold 2 { <bf d>8 q <bf c> q }
+  }
+  \score {
+    <<
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-05-twilight-in-the-marshlands-feature.webp
+#+caption: "Twilight in the Marshlands" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-05-twilight-in-the-marshlands-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(6P-9MBe4R98)}}}
+
+*** DONE Exploring "Waltz with Me Moose Giants" :@WhereverTheWindTakesMe:Descending5ths:7_6SuspensionChain:Indugio:Prinner:
+CLOSED: [2025-04-04 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: waltzwithmemoosegiants
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-04-waltz-with-me-moose-giants-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-04 00:00]
+:END:
+
+Waltz with Me Moose Giants:
+a chameleon motive, very useful for weaving counterpoint.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+Where’s all the 3/4 pieces in the music of our time?
+Thematically this piece is an obvious dungeon synth parody.
+Let's list some schemata for future improvisations.
+in the 0:06 mark
+we have a 7-6 suspension chain.
+The bass follows a prinner,
+and the melody could easily be replaced to follow one too.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(4025779485, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+The 0:18 mark lingers on a predominant harmony,
+but doesn’t quite fit a stereotypical indugio.
+I’ll still tag this piece with “indugio” for later comparisons.
+The 0:35 mark begins a descending-fifths sequence,
+however, in the first step the bass start from the inversion,
+whereas in the continuation it starts from the root
+of the underlying harmony.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-04-waltz-with-me-moose-giants-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative c { c4. d8 c4 e }
+  \score {
+    <<
+      \time 3/4
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-04-waltz-with-me-moose-giants-feature.webp
+#+caption: "Waltz with Me Moose Giants" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-04-waltz-with-me-moose-giants-feature.webp]]
+
+The 0:42 mark chains another descending-fifths sequence,
+this time with proper fifth leaps in the bass,
+and the harmonic rhythm has doubled.
+The 1:02 mark doesn’t quite initiate a fonte:
+it should be read as a descending-fifths sequence
+with inversions to my ear.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(MRBYgu4i4-s)}}}
+
+*** DONE Exploring "Fireflies Circling in the Rain" :@WhereverTheWindTakesMe:
+CLOSED: [2025-04-03 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: firefliescirclingintherain
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-03-fireflies-circling-in-the-rain-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-03 00:00]
+:END:
+
+Fireflies Circling in the Rain:
+The flourishing motif changes along with the underlying modes or scales.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+As atmospheric as the improvisation may have turned out,
+theory-wise I don’t have too much to say on this one.
+But since this piece doesn’t rely on early music concepts per se,
+I will use modern names for the modes or scales
+that the motive cycles through:
+first aeolian, followed by phrygian;
+then dorian, and finally locrian.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(854855959, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-03-fireflies-circling-in-the-rain-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative e' { e8 \tuplet 3/2 8 { d16 e d c d c b c b a b a g a g } fs8 r }
+  \score {
+    <<
+      \new Staff { \clef "bass" \melody }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-03-fireflies-circling-in-the-rain-feature.webp
+#+caption: "Fireflies Circling in the Rain" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-03-fireflies-circling-in-the-rain-feature.webp]]
+
+Here's the recording session video of the piece:
+{{{embedYoutube(9s0DO9TimpU)}}}
+
+*** DONE Exploring "Chilly Nights, Quiet Winds" :@WhereverTheWindTakesMe:Descending5ths:Prinner:Romanesca:
+CLOSED: [2025-04-02 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: chillynightsquietwinds
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-02-chilly-nights-quiet-winds-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-02 00:00]
+:END:
+
+Chilly Nights, Quiet Winds:
+a meandering motive searchs out and seeks,
+perhaps for a warmer breeze.
+
+(Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
+
+If the previous piece of this collection,
+"False Relations in an English Town" more obviously refer
+to renaissance musical styles, this one does it much more subtly.
+Not only the motif but the underlying harmonies
+are perhaps reminiscent of soundtrack music.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(1851901797, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+In the 0:06 mark,
+and then again 0:11 mark both initiate a descending-fifths sequence,
+the latter instance going farther.
+Of note is that from the relative major key perspective
+they are the ubiquitous ii-V-I -progressions, familiar from jazz.
+
+If we call the "motif" the cover of the book,
+then the way the motif is weaved,
+or the text inside the book,
+reminds me more of Francisco Spinacino’s recercares;
+which literally means "to search out; to seek".
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-02-chilly-nights-quiet-winds-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative cs' { cs4 d cs d fs e d cs a b a b fs'1 }
+  bass = \relative b, { b1~ b g1~ g }
+  \score {
+    <<
+      \new Staff { \clef "treble" \melody }
+      \new Staff { \clef "bass" \bass }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+        \new TabVoice { \bass }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-02-chilly-nights-quiet-winds-feature.webp
+#+caption: "Chilly Nights, Quiet Winds" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-02-chilly-nights-quiet-winds-feature.webp]]
+
+Even if the bass-melody building blocks of this piece
+do not follow textbook examples of schemata,
+I will list what I perceive to happen and might aid
+in future improvisations:
+the opening i-VI-IV would be what I’ve sometimes called
+a modern romanesca, minor variant.
+I think so because wikipedia page for I-vi-IV
+unknowingly lists romanescas in its classical examples.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(8TyT7nQjC4Y)}}}
+
+*** DONE Exploring "False Relations in an English Town" :@WhereverTheWindTakesMe:FalseRelation:
+CLOSED: [2025-04-01 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: falserelationsinanenglishtown
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/04-01-false-relations-in-an-english-town-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-01 00:00]
+:END:
+
+False Relations in an English Town:
+"Dalza’s basse danse meets the english cadence".
+
+(Note to reader: these are my earlier blogposts heavy in music theory
+and meandering in thought.
+I'll slowly revisit and backlink posts to clarify things.)
+
+As far as I remember,
+in this improvisation I ripped off one of
+Joan Ambrosio Dalza’s basse danses or pivas.
+However, the main gist was to test out a final cadence with false relation;
+also known as “english cadence” in renaissance music.
+Maybe calling the final cadence a "motif" is a bit incorrect, heh.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(226377492, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+It might make sense in the future to relate this improvisation
+with the style of renaissance lute composers such as Luys Milan,
+but right now I will leave this post deliberately short.
+A few points for the future:
+- techniques by other renaissance composers
+  to improvise on top of a drone or single-note bass,
+- Luys Milan and other composers
+  utilizing guitar-friendly imitations between bass and upper voices,
+- english cadences by english composers,
+  Thomas Tallis comes to mind,
+- and finally, other false relations:
+  late renaissance or early baroque France comes to mind.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/04-01-false-relations-in-an-english-town-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative a' { \parenthesize a4 gs8 fs gs4. a8 a1\fermata }
+  bass = \relative e { e2 f?4 e a,1\fermata }
+  \score {
+    <<
+      \new Staff { \clef "treble" \melody }
+      \new Staff { \clef "bass" \bass }
+      \new TabStaff \with {} <<
+        \new TabVoice { \melody }
+        \new TabVoice { \bass }
+      >>
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:04-01-false-relations-in-an-english-town-feature.webp
+#+caption: "False Relations in an English Town" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/04-01-false-relations-in-an-english-town-feature.webp]]
+
+Here's the recording session video of the piece:
+
+{{{embedYoutube(yJVGpjqCjLw)}}}
+
+*** DONE Exploring "Wherever The Wind Takes Me" :@WhereverTheWindTakesMe:2Up3Down:ConvergingCadence:Fonte:Romanesca:
+CLOSED: [2025-01-08 22:32]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: 01-08-wherever-the-wind-takes-me
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2025/01-08-wherever-the-wind-takes-me-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-01-08 22:32]
+:END:
+
+Arpeggiating a single motive
+results in a deceptively simple prelude.
+Let's delve into this audio dungeon -
+timestamps as a map, motif as a compass.
+
+(Note to reader: these are my earlier blogposts heavy in music theory
+and meandering in thought.
+I'll slowly revisit and backlink posts to clarify things.)
+
+I came up with this piece after getting fed up
+with the nigh impossible choral-style anti-guitarisms in the post
+[[*Exploring "Angels Carried Me Away"]]
+in this same collection.
+To those familiar with early music improvisation concepts,
+here I list the scale-degree schemata (or partimento concepts)
+that I think might be useful for future improvisations.
+
+To peek into this 'audio dungeon exploration'
+before shopping it in the Bandcamp market (for name your gold coins):
+{{{embedAJGBandcampTrack(3985105932, 3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+In the 0:14 mark begins a "moti del basso" of a 2-up-3-down sequence,
+which ends at 0:23 mark. Moti del basso is a partimento term,
+literally "movement of the bass", basically sequences.
+The modal addition that gives the harmony a dorian sound steals the show:
+I wouldn't call it a conventional 2-up-3-down sequence;
+or perhaps it speaks of the chameleon nature of the bass movement.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2025/01-08-wherever-the-wind-takes-me-feature.png
+  #(ly:set-option 'resolution 200)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  melody = \relative c { c8 g' c d e d c g }
+  \score {
+    <<
+      \new Staff {
+        \clef "bass"
+        \melody
+      }
+      \new TabStaff \with {} { \melody }
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:01-08-wherever-the-wind-takes-me-feature.webp
+#+caption: "Wherever The Wind Takes Me" Motif
+#+attr_html: :alt The piece's motif in musical notation.
+[[/images/2025/01-08-wherever-the-wind-takes-me-feature.webp]]
+
+The 0:28 mark begins a large-scale fonte,
+where each step lasts for four bass steps.
+The fonte ends on the 0:41 mark.
+Although I wouldn't read this as a proper Fonte Prinner,
+the harmonies still cycle through a descending-fifths sequence.
+The 0:41 mark begins a romanesca with the falling bassline,
+but continues practically through the entire scale.
+In the 1:00 mark occurs a converging cadence.
+
+Here's the recording session video of the piece:
+{{{embedYoutube(t-HdAvsmOeM)}}}
+
+** /posts/2024 (frag, but don't use /yyyy: because seo)
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: 2024
+:END:
+*** DONE "Wherever The Wind Takes Me": a New Collection :@Portfolio:@WhereverTheWindTakesMe:
+CLOSED: [2025-09-25 Thu 20:32]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: wherever-the-wind-takes-me
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2024/11-26-wherever-the-wind-takes-me-AlbumCover-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-09-25 Thu 20:32] \\
+  Changed title to respect newer naming scheme.
+- State "DONE"       from "TODO"       [2024-11-26 20:55]
+:END:
+
+Welcome dungeon crawling the nylon guitar!
+Don't let the pastoral, Arcadian art
+by Konsta Airisto
+fool you -
+here be music theory dragons.
+Special mention to galant /partimento/ / /scale-degree schemata/
+by R. Gjerdingen, G. Sanguinetti
+& other wizard legends.
+
+Even if the ignition to embark on this journey came from the dungeon synth genre,
+I stole some good game soundtrack treasure along the way.
+Going back to the galant school of casting,
+I must mention two grand spell tomes for any serious scholar
+of early / classical music on-the-spot composers:
+
+- R. Gjerdingen's "Music in the Galant Style" and
+- G. Sanguinetti's "Art of Partimento"
+
+To peek into the 'audio dungeon explorations' of this collection:
+
+{{{embedAJGBandcampAlbum(3014684465, wherever-the-wind-takes-me, "Wherever The Wind Takes Me")}}}
+
+My mission is to create a spell "zibaldone" for composers.
+Think: ancient type of magic book, a forgotten form of magic.
+Truth is, the concept behind galant school of magic isn't specific to that style.
+Schemata, or predefined scripts (V. Byros) or "framework notes" as I like to call them:
+they apply to many kinds of music.
+
+As I write of the 19 dungeon explorations,
+you can find an automagically filling list
+with short summaries in the page:
+[[*Wherever The Wind Takes Me]]
+
+The recording was captured with following sorcery:
+
+- LilyPond to etch the motifs
+- Csound to shape the mixed elements
+- Ecasound to record the tune of the guitar
+
+I also published a YouTube playlist of the collection recording sessions:
+
+{{{embedYoutubePlaylist(PLN2kCRRlVZAs8C_yKbhWIXf5nrnD9eTHf)}}}
+
+I also compiled them into a single YouTube video:
+
+{{{embedYoutube(fhJG9hxWo2A)}}}
+
+#+name: fig:11-26-wherever-the-wind-takes-me-AlbumCover-feature.webp
+#+attr_html: :alt A river surrounded by trees and somewhat cloudy blue sky above.
+#+caption: "Wherever the Wind Takes Me" cover art by Konsta Airisto
+[[/images/2024/11-26-wherever-the-wind-takes-me-AlbumCover-feature.webp]]
+
+** /posts/2022 (frag, but don't use /yyyy: because seo)
+:PROPERTIES:
+:EXPORT_HUGO_SECTION_FRAG: 2022
+:END:
+*** DONE Debug Dungeon
+CLOSED: [2025-08-28 01:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_BUNDLE: 08-28-testpost
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/2022/08-28-testpost-feature.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :tableofcontents false
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-08-28 01:34]
+:END:
+
+This post tests some functionalities and technical aspects of the site.
+
+Let's test citation cite [cite:@Methode_complet_Fernan_1830].
+The bibliography should be at the end of this blog post;
+it's wrapped in a "details" element,
+most probably press an arrow symbol and it should collapse to view.
+Let's next test some LilyPond (music engraving) stuff.
+
+#+begin_details
+#+begin_summary
+(LilyPond code)
+#+end_summary
+#+begin_src lilypond :exports code :results output silent :file static/images/2022/08-28-testpost-feature.webp
+  #(ly:set-option 'resolution 100)
+  \version "2.24.4"
+  \language "english"
+  \pointAndClickOff
+  \header { tagline = "" }
+  testMelody = \relative c' {
+    c8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+    c,8 d e f g a b c
+  }
+  \score {
+    <<
+      \new Staff \with { instrumentName = "Some instr." } { \testMelody }
+      \new Staff \with { instrumentName = "Some instr." } { \testMelody }
+    >>
+  }
+#+end_src
+#+end_details
+
+#+name: fig:08-28-testpost-feature.webp
+#+caption: Lilypond Babel Test
+#+attr_html: :alt A rising scale in musical notation to test code into rendered picture.
+[[/images/2022/08-28-testpost-feature.webp]]
+
+A lilypond code block (emacs babel via ox-hugo) is rendered into musical notation.
+The figure is just a normal picture in the static -directory
+(so that other blogposts can use it easily, if needed)
+but the LilyPond code used to generate is wrapped in a details -element:
+
+Some notes for myself and the most curious readers:
+- I now use ox-hugo's default csl export
+  (and don't provide csl file, but in the future possibly apa or chicago)
+- The documentation of supported types and fields is finicky.
+  Here's how I'm able to cite songs etc in a rather sane way:
+- @incollection{keynameFromPapisRef
+  - author = {Composer one and Contrapuntist two},
+  - origauthor = {Fenrir},
+  - title = {Méthode complète pour la musictheorist},
+  - booktitle = {My favourite album!},
+  - series = {Website name; in a pinch, Arr. Firstname Lastname here.},
+  - date = {1830-11-27},
+  - origdate = {1777-01-13},
+  - publisher = {Greengrove Dungeons},
+  - howpublished = {Arr. Pernando Horra. Lyr. Jane Doe. Tr. John Smith. [URL Accessed 1999]. Any additional details.},
+  - url = "gopher.bogusurl.document"
+- }
+
+#+begin_details
+#+begin_summary
+References
+#+end_summary
+#+print_bibliography:
+#+end_details
+
+** DONE /posts
+CLOSED: [2025-11-29 16:53]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/albumCoverLatest.webp"
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-11-29 16:53]
+:END:
+
+{{{newslettercta}}}
+
+* /categories
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /categories
+:END:
+
+** DONE /categories/
+CLOSED: [2024-11-19 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/albumCoverLatest.webp"
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-11-19 00:00]
+:END:
+
+This page lists broad, thematical categories.
+In contrast, [[*Tags]] are more granular.
+
+** DONE /categories/whereverthewindtakesme
+CLOSED: [2022-11-19 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_BUNDLE: whereverthewindtakesme
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-11-19 00:00]
+:END:
+
+** DONE /categories/portfolio
+CLOSED: [2024-11-19 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_BUNDLE: portfolio
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/albumCoverLatest.webp"
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-11-19 00:00]
+:END:
+Here you can find most of my released compositions (under the A J Greengrove moniker).
+
+* /
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:END:
+
+** DONE /
+CLOSED: [2022-08-28 01:34]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/albumCoverLatest.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :aliases "/about/index.html"
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-08-28 01:34]
+:END:
+
+#+name: fig:profileLatest.webp
+#+attr_html: :alt Latest profile picture of me
+#+attr_html: :width 50%
+[[/images/profileLatest.webp]]
+
+{{{bio}}}
+
+{{{newslettercta}}}
+
+Questions? Be sure to [[*Contact]] me.
+
+** DONE Tags
+CLOSED: [2024-11-19 00:00]
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_BUNDLE: tags
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/albumCoverLatest.webp"
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-11-19 00:00]
+:END:
+
+This page lists tags.
+In contrast, [[*Categories]] are more broad and thematically united.
+
+** DONE Contact
+CLOSED: [2025-11-10 Mon 04:04]
+:PROPERTIES:
+:EXPORT_FILE_NAME: contact
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :featured_image "/images/profileLatest.webp"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :type "page"
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-11-10 Mon 04:04] \\
+  Minimal aesthetic.
+- State "DONE"       from "TODO"       [2022-08-27 12:00]
+:END:
+
+#+begin_verse
+[[mailto:contact@ajgreengrove.com][contact@ajgreengrove.com]]
+#+end_verse
+
+{{{bio}}}
+

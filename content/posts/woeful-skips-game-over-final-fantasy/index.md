@@ -6,7 +6,7 @@ author = ["A J Greengrove"]
 date = 2025-11-08T02:56:00+02:00
 lastmod = 2025-11-15T21:14:00+02:00
 tags = ["Descending5ths"]
-categories = ["CounterpointChronicles", "DecryptingGameMusicTheoryGems", "FinalFantasyI"]
+categories = ["FinalFantasyI"]
 draft = false
 featured_image = "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
 toc = true
@@ -19,8 +19,7 @@ using a generic descending-fifths sequence?
 
 ## Prologue: Walkthrough and Guitar Cover Videos {#prologue-walkthrough-and-guitar-cover-videos}
 
-Here's this blogpost's video entry in the [Decrypting Game Music Theory Gems]({{< relref "decryptinggamemusictheorygems" >}}) -series,
-if you prefer a video as a starting point:
+Here's if you prefer a video as a starting point:
 <div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/vMWEbC2hdrc" title=Woeful Skips - Game Over - Final Fantasy I NES frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 To listen while we decrypt the music theory behind the soundtrack,

@@ -1,0 +1,7 @@
+# Local Netlify folder
+.netlify
+# Hugo build and asset caches
+/resources/_gen/
+/public/
+hugo_stats.json
+.hugo_build.lock

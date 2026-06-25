@@ -72,7 +72,7 @@ melody = \relative g' { g4 fs8 e fs4 g fs d b c8 d e4 }
 {{< figure src="/images/2025/04-07-autumn-moon-dance-feature.webp" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Autumn Moon Dance\" Motif" >}}
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/Oo9s60DvxiU" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Oo9s60DvxiU" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <details>
 <summary>References</summary>

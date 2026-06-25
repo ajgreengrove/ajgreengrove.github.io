@@ -55,4 +55,4 @@ melody = \relative e' { e8 \tuplet 3/2 8 { d16 e d c d c b c b a b a g a g } fs8
 {{< figure src="/images/2025/04-03-fireflies-circling-in-the-rain-feature.webp" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Fireflies Circling in the Rain\" Motif" >}}
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/9s0DO9TimpU" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/9s0DO9TimpU" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

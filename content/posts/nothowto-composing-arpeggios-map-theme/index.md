@@ -4,7 +4,6 @@ title = """
   """
 author = ["A J Greengrove"]
 date = 2025-10-26T23:17:00+02:00
-categories = ["CounterpointChronicles", "TheAlchemyOfGameMusicThemes"]
 draft = false
 featured_image = "/images/nothowto-composing-arpeggios-map-theme-feature.webp"
 tableofcontents = false
@@ -12,14 +11,18 @@ tableofcontents = false
 
 In this Not-How-To anti-tutorial,
 I compose game music (map theme) inspired by the "Wrong-Note" prelude,
-as I wrote &amp; videoed in [The "Wrong-Note" Prelude of Final Fantasy I (1987 NES)]({{< relref "08-30-prelude-nes-ver-final-fantasy-i" >}}).
+as I wrote &amp; videoed in
+'The "Wrong-Note" Prelude of Final Fantasy I (1987 NES)',
+nowadays under "Guitarist Game Composer" moniker.
 After the arpeggios there's an ascending-fifths (aka "mountain")
 sequence and a classic ii-V-(I reinterpreted as III) turnaround.
 I recommend skipping with the use of timestamps,
 unless the composing process itself interests you or maybe viewing in the background.
 
 This is more of a prototype, but it is the first installment
-of a live-composition series called [The Alchemy of Game Music Themes]({{< relref "thealchemyofgamemusicthemes" >}}).
+of a live-composition series called
+("The Alchemy of Game Music Themes":
+nowadays by "Guitarist Game Composer").
 
 Originally the idea was to just to simply
 use the music theory concepts of the Final Fantasy Prelude.

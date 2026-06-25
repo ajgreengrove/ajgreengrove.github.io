@@ -1,15 +1,14 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
 
-  <p>Get notified of recent posts by joining the <b>newsletter mailing list</b>:</p>
+  <p>Join the <b>newsletter</b> to get recent posts in your inbox:</p>
   <form action="https://hakanai.io/campaign/4f7acbb0-a4cf-4ef9-89e6-72f42ce73544/subscribe" method="get">
     <input type="email" name="email" placeholder="Your email" required>
     <button type="submit">Subscribe</button>
   </form>
-  <p>To transcribe the emerald tablature we must decipher the Caduceus of Evorg</p>
 
   <div class="flex justify-between">
     <a class="f4 fw4 hover-white no-underline dark-gray dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
-      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}. Powered by Hugo with Ananke theme and Netlify.
+      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}<br><b>Powered by:</b> Hugo with Ananke theme; Netlify; Hakanai.io newsletter.
     </a>
     <div>{{ partialCached "social/follow.html" . }}</div>
   </div>

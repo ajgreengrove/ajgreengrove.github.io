@@ -5,7 +5,7 @@ title = """
 author = ["A J Greengrove"]
 date = 2025-08-29T00:00:00+03:00
 lastmod = 2025-10-13T13:04:00+03:00
-categories = ["Works", "FinalFantasyI"]
+categories = ["FinalFantasyI"]
 draft = false
 featured_image = "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
 tableofcontents = false
@@ -15,18 +15,18 @@ Let's Play Final Fantasy I - with Guitar!
 "Prelude" (NES Version specifically) and "Game Over" for starters.
 Konsta Airisto's mage art captures nicely the
 hidden music theory wizardries in the game's soundtrack.
-I now explain the journey that awaits us (EP and Album to come).
+I now explain the journey that awaits us.
 
 -   I'll write a short music theory blogpost for each of the game soundtracks.
 -   Then I use that knowledge to compose custom game music,
     and learn something new about enhancing games with music;
 -   filling the game composer's "zibaldone" tome;
     a quest I previously declared in the post
-    [Album Unveiled: "Wherever The Wind Takes Me"]({{< relref "wherever-the-wind-takes-me" >}}).
+    ["Wherever The Wind Takes Me": a New Collection]({{< relref "wherever-the-wind-takes-me" >}}) .
 
 The choice of Final Fantasy I vs. early music theory is not a coincidence. ; )
 
-As usual, to peek into the 'audio dungeon explorations' of this album:
+As usual, to peek into the 'audio dungeon explorations':
 you can access the streams with "smart Link"
 (apple music requires a search):
 
@@ -38,7 +38,7 @@ you can access the streams with "smart Link"
 
 And as before, as I write of these 19(+?) dungeon explorations,
 you can find the automagically filling list with short summaries in:
-[Final Fantasy I]({{< relref "finalfantasyi" >}}).
+Final Fantasy I (broken link, deleteme: this is Guitarist Game Composer stuff).
 In fact, that category page gets updated with any FF1 -related blogposts.
 
 Why Final Fantasy I? Just like V,
@@ -65,5 +65,4 @@ Addendum story: I had already recorded almost all of Final Fantasy I,
 but then my laptop broke;
 stupid me did not have a backup system robust enough.
 Now I'm a happy user of B2 Backblaze (just 1 CLI command and backup begins!)
-but I thought screw it, let's follow the waterfall release model to get started already
-(single, then EP, then the actual damn full album).
+but I thought screw it, let's follow the waterfall release model to get started already.

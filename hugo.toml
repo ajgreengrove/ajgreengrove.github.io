@@ -25,8 +25,8 @@ startLevel = 2
 
 [menu]
 [[menu.main]]
-identifier = "Home"
-name = "Home"
+identifier = "ajgreengrove"
+name = "A J Greengrove"
 url = "/"
 weight = 1
 [[menu.main]]
@@ -35,15 +35,10 @@ name = "Blog"
 url = "/posts/"
 weight = 2
 [[menu.main]]
-identifier = "works"
-name = "Works"
-url = "/categories/works"
+identifier = "portfolio"
+name = "Portfolio"
+url = "/categories/portfolio"
 weight = 3
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
-weight = 4
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
@@ -51,7 +46,7 @@ url = "/contact"
 weight = 5
 
 [params]
-background_color_class = "bg-dark-green"
+background_color_class = "bg-gold"
 body_classes = "avenir bg-near-white"
 cover_dimming_class = "bg-black-80"
 custom_css = ["custom.css"]
@@ -61,10 +56,12 @@ post_content_classes = "avenir bg-near-white"
 
 [params.ananke.social.follow]
 networks = [
-  "bandcamp",
+  "youtube",
+  "twitch",
+  "instagram",
   "spotify",
-	"youtube",
-	"twitch",
+  "bandcamp",
+  "mastodon",
 ]
 [params.ananke.social.share]
 sharetext = true

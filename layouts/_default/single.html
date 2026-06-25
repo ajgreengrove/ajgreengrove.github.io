@@ -86,16 +86,5 @@
 		{{- partial "menu-contextual.html" . -}}
 	</aside>
 
-	<div class="next-post">
-		{{ if .Page.Next }}
-		<a class="link-reverse" href="{{ .Page.Next.Permalink }}"><i>(next:)</i> « {{ .Page.Next.Title }} «</a>
-		{{ end }}
-	</div>
-	<div class="previous-post">
-		{{ if .Page.Prev }}
-		<a class="link-reverse" href="{{ .Page.Prev.Permalink }}"><i>(previous:)</i> » {{ .Page.Prev.Title }} »</a>
-		{{ end }}
-	</div>
-
 </article>
 {{ end }}

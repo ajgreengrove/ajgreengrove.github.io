@@ -12,7 +12,7 @@ tableofcontents = false
 +++
 
 Goblins Lurking in the Darkness:
-the most blatant dungeon synth parody of this album.
+the most blatant dungeon synth parody of this collection.
 
 (Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
 
@@ -67,4 +67,4 @@ In the 0:43 mark we hear a ponte,
 that is a pedal point schema on scale degree 5.
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/T9e-iHig5oM" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/T9e-iHig5oM" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

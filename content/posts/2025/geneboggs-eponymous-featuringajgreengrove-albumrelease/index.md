@@ -2,7 +2,6 @@
 title = "Gene Boggs - Eponymous (Featuring A J Greengrove) Album Release"
 author = ["A J Greengrove"]
 date = 2025-04-23T00:00:00+03:00
-categories = ["Works"]
 draft = false
 featured_image = "/images/2025/04-23-geneboggs-eponymous-featuringajgreengrove-albumrelease-feature.webp"
 tableofcontents = false
@@ -11,10 +10,9 @@ tableofcontents = false
 "Eponymous:" an almost unlikely combination of electronica
 and mellow guitars.
 
-As I tend to do with albums,
 I (re-)compiled a youtube playlist of the song audios:
 
-<div class="org-youtube-playlist"><iframe src="https://www.youtube.com/embed/videoseries?list=PLN2kCRRlVZAsyKmYifOcWTdS4XzmQgkQv" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube-playlist"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLN2kCRRlVZAsyKmYifOcWTdS4XzmQgkQv" title= frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 Minimal structures and textures meet the guitar
 that phrases longer melodic arcs.

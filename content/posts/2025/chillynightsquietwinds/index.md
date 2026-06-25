@@ -17,7 +17,7 @@ perhaps for a warmer breeze.
 
 (Note to reader: these are my earlier blogposts heavy in music theory and meandering in thought. I'll slowly revisit and backlink posts to clarify things.)
 
-If the previous piece of this album,
+If the previous piece of this collection,
 "False Relations in an English Town" more obviously refer
 to renaissance musical styles, this one does it much more subtly.
 Not only the motif but the underlying harmonies
@@ -79,4 +79,4 @@ I think so because wikipedia page for I-vi-IV
 unknowingly lists romanescas in its classical examples.
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/8TyT7nQjC4Y" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/8TyT7nQjC4Y" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

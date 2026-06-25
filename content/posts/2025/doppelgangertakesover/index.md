@@ -42,7 +42,7 @@ which are explored throughout the piece,
 along with some phrygian explorations.
 But improvisation stylewise I would put this
 in the Francesco Spinacino recercare preluding style,
-just like I did in the post [Exploring "Chilly Nights, Quiet Winds"]({{< relref "chillynightsquietwinds" >}}) in this same album.
+just like I did in the post [Exploring "Chilly Nights, Quiet Winds"]({{< relref "chillynightsquietwinds" >}}) in this same collection.
 
 <details>
 <summary>(LilyPond code)</summary>
@@ -73,7 +73,7 @@ melody = \relative e' { e16 df bf a bf4 }
 {{< figure src="/images/2025/04-06-doppelganger-takes-over-feature.webp" alt="The piece's motif in musical notation." caption="<span class=\"figure-number\">Figure 1: </span>\"Doppelganger Takes Over\" Motif" >}}
 
 Here's the recording session video of the piece:
-<div class="org-youtube"><iframe src="https://www.youtube.com/embed/03E3AJhiW7g" allowfullscreen title="YouTube Video"></iframe></div>
+<div class="org-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/03E3AJhiW7g" title= frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <details>
 <summary>References</summary>
