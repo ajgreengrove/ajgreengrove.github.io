@@ -1,0 +1,7 @@
+[Template]
+{:tx/at #inst \"YYYY-MM-DDTHH:MM:SSZ\" :tx/datoms [[:keyword/namespace :keyword/namespace {:key :value}] [:k/n :k/n {:k :v}]}
+[Directive]
+:tx/at: fill timestamp (current ISO-8601 UTC) at #inst;
+:tx/datoms: transform into a vector of triples as per [Template].
+no markdown; 
+output a lengthy single-record 1-line EDN map based on last answer.
