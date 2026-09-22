@@ -10,6 +10,9 @@ categories = ["FinalFantasyI"]
 draft = false
 featured_image = "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
 toc = true
+[build]
+  list = "never"
+  render = "always"
 +++
 
 How is "Game Over" from "Final Fantasy I"

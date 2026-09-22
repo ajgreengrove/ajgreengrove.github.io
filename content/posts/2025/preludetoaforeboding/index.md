@@ -8,6 +8,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-08-prelude-to-a-foreboding-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Prelude to a Foreboding:

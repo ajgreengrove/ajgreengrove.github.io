@@ -9,6 +9,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-06-doppelganger-takes-over-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Doppelganger Takes Over:

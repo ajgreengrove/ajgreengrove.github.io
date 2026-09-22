@@ -9,6 +9,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-07-autumn-moon-dance-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Autumn Moon Dance:

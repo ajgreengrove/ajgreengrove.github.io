@@ -7,6 +7,9 @@ date = 2025-10-26T23:17:00+02:00
 draft = false
 featured_image = "/images/nothowto-composing-arpeggios-map-theme-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 In this Not-How-To anti-tutorial,

@@ -9,6 +9,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-15-angels-carried-me-away-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Angels Carried Me Away:

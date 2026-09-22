@@ -8,6 +8,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-17-when-shadows-take-over-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 When Shadows Take Over:

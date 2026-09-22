@@ -9,6 +9,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-10-goodbye-faraway-peaceful-town-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Goodbye Faraway Peaceful Town:

@@ -1,0 +1,12 @@
+# A J Greengrove
+
+> Environment Forensics Consultant. Tracing, isolating, and eliminating environment chaos to build deterministic, fully reproducible systems.
+
+## Main Pages
+
+- [Home](https://www.ajgreengrove.com/): Environment Forensics overview and primary contact entry point.
+- [Contact](https://www.ajgreengrove.com/contact/): Get in touch for consulting inquiries.
+
+## Writing & Archive
+
+- [Blog Index](https://www.ajgreengrove.com/posts/): Complete chronological archive of articles and music theory/tech notes.

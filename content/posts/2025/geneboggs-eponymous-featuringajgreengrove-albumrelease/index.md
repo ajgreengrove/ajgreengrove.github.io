@@ -5,6 +5,9 @@ date = 2025-04-23T00:00:00+03:00
 draft = false
 featured_image = "/images/2025/04-23-geneboggs-eponymous-featuringajgreengrove-albumrelease-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 "Eponymous:" an almost unlikely combination of electronica

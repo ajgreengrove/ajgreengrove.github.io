@@ -1,0 +1,15 @@
+{{- if .Params.references -}}
+{{- $refs := slice -}}
+{{- range .Params.references -}}
+  {{- $item := dict "@type" "CreativeWork" "@id" .id "name" .title "author" .author "url" .url "datePublished" .date -}}
+  {{- $refs = $refs | append $item -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "citation": {{ $refs | jsonify }}
+}
+</script>
+{{- end -}}

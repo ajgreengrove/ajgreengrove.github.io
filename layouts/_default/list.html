@@ -1,0 +1,69 @@
+{{ define "main" }}
+<content>
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ "/" | relURL }}">Remove filter</a>
+  </small>
+  {{ else }}
+  <h2>{{ .Title }}</h2>
+  {{ end }}
+
+  {{ if .Content }}
+  <div class="section-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <ul class="blog-posts">
+    {{ range where .RegularPagesRecursive.ByDate.Reverse ".Params.build.list" "!=" "never" }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+  </ul>
+
+  {{ if not .Data.Singular }}
+  <small>
+    {{/*
+    <!-- Categories and Tags commented out on list pages -->
+    <div>
+      {{ $visiblePages := where .RegularPagesRecursive ".Params.build.list" "!=" "never" }}
+      {{ $visibleCategories := slice }}
+      {{ range $visiblePages }}
+        {{ range .Params.categories }}
+          {{ $visibleCategories = $visibleCategories | append . }}
+        {{ end }}
+      {{ end }}
+      {{ range ($visibleCategories | uniq) }}
+      <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/">[{{ . }}]</a>&nbsp;
+      {{ end }}
+    </div>
+
+    <div>
+      {{ $visibleTags := slice }}
+      {{ range $visiblePages }}
+        {{ range .Params.tags }}
+          {{ $visibleTags = $visibleTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ range ($visibleTags | uniq) }}
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>&nbsp;
+      {{ end }}
+    </div>
+    */}}
+  </small>
+  {{ end }}
+</content>
+{{ end }}

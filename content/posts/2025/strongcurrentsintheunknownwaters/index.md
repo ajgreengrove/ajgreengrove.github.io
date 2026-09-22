@@ -8,6 +8,9 @@ categories = ["WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2025/04-12-strong-currents-in-the-unknown-waters-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Strong Currents in the Unknown Waters:

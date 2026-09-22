@@ -5,6 +5,9 @@ date = 2026-01-06T13:25:00+02:00
 draft = false
 featured_image = "/images/how-i-compose-fakebit-with-hidden-polyphony-feature.webp"
 tableofcontents = true
+[build]
+  list = "never"
+  render = "always"
 +++
 
 At first we put hidden polyphony, arpeggios etc into simple terms.

@@ -1,0 +1,57 @@
+{{ define "main" }}
+<content>
+  {{ if .Content }}
+  <div class="section-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <ul class="blog-posts">
+    {{ range first 10 (where .Site.RegularPages ".Params.build.list" "!=" "never") }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ else }}
+    <li>
+      No posts yet
+    </li>
+    {{ end }}
+  </ul>
+  {{ if not .Data.Singular }}
+  <small>
+    {{/*
+    <div>
+      {{ $visiblePages := where .RegularPagesRecursive ".Params.build.list" "!=" "never" }}
+      {{ $visibleCategories := slice }}
+      {{ range $visiblePages }}
+        {{ range .Params.categories }}
+          {{ $visibleCategories = $visibleCategories | append . }}
+        {{ end }}
+      {{ end }}
+      {{ range ($visibleCategories | uniq) }}
+      <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/">[{{ . }}]</a>&nbsp;
+      {{ end }}
+    </div>
+    <div>
+      {{ $visibleTags := slice }}
+      {{ range $visiblePages }}
+        {{ range .Params.tags }}
+          {{ $visibleTags = $visibleTags | append . }}
+        {{ end }}
+      {{ end }}
+      {{ range ($visibleTags | uniq) }}
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>&nbsp;
+      {{ end }}
+    </div>
+    */}}
+  </small>
+  {{ end }}
+</content>
+{{ end }}

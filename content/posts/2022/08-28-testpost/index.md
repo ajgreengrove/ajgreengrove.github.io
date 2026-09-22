@@ -5,6 +5,9 @@ date = 2022-08-28T01:34:00+03:00
 draft = false
 featured_image = "/images/2022/08-28-testpost-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 This post tests some functionalities and technical aspects of the site.

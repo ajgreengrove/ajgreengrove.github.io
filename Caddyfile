@@ -1,0 +1,23 @@
+:80 {
+	# Set root to the production deployment path
+	root * /var/www/ajgreengrove.com
+
+	# Enable static file server
+	file_server
+
+	# Encode responses (gzip & zstd)
+	encode zstd gzip
+
+	# Custom headers to emulate production security baseline
+	header {
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+	}
+
+	# Handle 404 pages cleanly via Hugo's 404.html if generated
+	handle_errors {
+		rewrite * /404.html
+		file_server
+	}
+}

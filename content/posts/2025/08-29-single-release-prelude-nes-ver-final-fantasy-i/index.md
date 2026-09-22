@@ -9,6 +9,9 @@ categories = ["FinalFantasyI"]
 draft = false
 featured_image = "/images/2025/08-29-single-release-prelude-nes-ver-final-fantasy-i-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Let's Play Final Fantasy I - with Guitar!

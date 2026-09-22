@@ -9,6 +9,9 @@ categories = ["Portfolio", "WhereverTheWindTakesMe"]
 draft = false
 featured_image = "/images/2024/11-26-wherever-the-wind-takes-me-AlbumCover-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Welcome dungeon crawling the nylon guitar!

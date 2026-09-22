@@ -6,4 +6,3 @@ draft = false
 featured_image = "/images/albumCoverLatest.webp"
 +++
 
-To get recent posts in your inbox, join the **newsletter** in the very bottom (footer) of the page.

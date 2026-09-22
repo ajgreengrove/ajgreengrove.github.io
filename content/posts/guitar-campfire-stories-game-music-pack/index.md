@@ -6,6 +6,9 @@ categories = ["Portfolio"]
 draft = false
 featured_image = "/images/guitar-campfire-stories-game-music-pack-feature.webp"
 tableofcontents = false
+[build]
+  list = "never"
+  render = "always"
 +++
 
 Today I announce release of

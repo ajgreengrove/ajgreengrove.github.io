@@ -1,0 +1,65 @@
+{{- $prefix := .Get "prefix" -}}
+{{- $page := .Get "page" -}}
+{{- $suppress := .Get "suppress" -}}
+
+{{- /* 1. Extract keys from 'key' or 'keys' (supports space or comma separation) */ -}}
+{{- $rawKeys := .Get "keys" | default (.Get "key") | default "" -}}
+{{- $keys := slice -}}
+
+{{- if ne $rawKeys "" -}}
+  {{- range (split (replace $rawKeys "," " ") " ") -}}
+    {{- $cleanKey := trim . " " -}}
+    {{- if ne $cleanKey "" -}}
+      {{- $keys = $keys | append $cleanKey -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* Fallback to positional parameters if NO named parameters are used at all */ -}}
+  {{- range .Params -}}
+    {{- $keys = $keys | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 2. Match keys against .Page.Params.references */ -}}
+{{- $citeSegments := slice -}}
+
+{{- range $k := $keys -}}
+  {{- $match := false -}}
+  {{- range $.Page.Params.references -}}
+    {{- if eq .id $k -}}
+      {{- $match = . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $match -}}
+    {{- $url := $match.url | default (printf "#ref-%s" $k) -}}
+    {{- $author := $match.author | default $k -}}
+    {{- $year := $match.date | default "" -}}
+
+    {{- $text := "" -}}
+    {{- if eq $suppress "true" -}}
+      {{- $text = $year -}}
+    {{- else -}}
+      {{- $text = printf "%s%s" $author (cond (ne $year "") (printf ", %s" $year) "") -}}
+    {{- end -}}
+
+    {{- $segment := printf `<a href="%s" class="citation-link">%s</a>` $url $text -}}
+    {{- $citeSegments = $citeSegments | append $segment -}}
+  {{- else -}}
+    {{- $citeSegments = $citeSegments | append (printf `<span class="citation-missing">%s</span>` $k) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. Format Page / Range label */ -}}
+{{- $pageLabel := "" -}}
+{{- if $page -}}
+  {{- $pageStr := printf "%v" $page -}}
+  {{- if findRE `[-–—]` $pageStr -}}
+    {{- $pageLabel = printf ", pp. %s" $pageStr -}}
+  {{- else -}}
+    {{- $pageLabel = printf ", p. %s" $pageStr -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 4. Render output */ -}}
+<span class="citation">({{ if $prefix }}{{ $prefix }} {{ end }}{{ delimit $citeSegments "; " | safeHTML }}{{ $pageLabel }})</span>
