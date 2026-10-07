@@ -30,15 +30,8 @@
         deploy-rs.packages.x86_64-linux.deploy-rs
       ];
     };
-    website = pkgs.stdenv.mkDerivation {
-      name = "ajgreengrove-com-site";
-      src = ./.;
-      nativeBuildInputs = [ pkgs.hugo ];
-      buildPhase = "hugo --minify";
-      installPhase = "cp -r public $out";
-    };
-    nixosConfigurations.ajg-vps = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
+    nixosConfigurations.ajg-vps-cax = nixpkgs.lib.nixosSystem {
+      system = "aarch64-linux";
       modules = [
         disko.nixosModules.disko
         ./disko.nix
@@ -68,25 +61,56 @@
           };
           boot.loader.efi.canTouchEfiVariables = false;
 
-          # Debug password to prevent "root account is locked" in emergency shell
-          users.users.root.password = "debugroot";
+          users.mutableUsers = false;
 
-          networking.hostName = "ajg-vps";
+          nix.gc = {
+            automatic = true;
+            dates = "weekly";
+            options = "--delete-older-than 14d";
+          };
 
-          # --- NETWORKING FIXES FOR HETZNER ---
-          # Enable DHCP on all interfaces so Hetzner's virtual NIC gets an IP automatically
+          networking.hostName = "ajg-vps-cax";
+
+          # --- NETWORKING FOR HETZNER ---
           networking.useDHCP = true;
+
+          networking.interfaces.enp1s0 = {
+            ipv6.addresses = [
+              {
+                address = "2a01:4f8:c015:2ca5::1";
+                prefixLength = 64;
+              }
+            ];
+          };
+
+          networking.defaultGateway6 = {
+            address = "fe80::1";
+            interface = "enp1s0";
+          };
 
           # Explicitly permit SSH traffic through the NixOS default firewall
           networking.firewall.allowedTCPPorts = [ 22 80 443 ];
           # ------------------------------------
+
+          # Fail2ban intrusion prevention
+          services.fail2ban = {
+            enable = true;
+            maxretry = 5;
+            bantime = "24h";
+            bantime-increment = {
+              enable = true;
+              multipliers = "1 2 4 8 16 32 64";
+              maxtime = "168h";
+            };
+          };
 
           # OpenSSH configuration
           services.openssh = {
             enable = true;
             settings = {
               PermitRootLogin = "yes";
-              PasswordAuthentication = true; # Useful for fallback debugging via Hetzner Console
+              # if true, enables fallback debugging via Hetzner Console
+              PasswordAuthentication = false;
             };
           };
 
@@ -125,14 +149,20 @@
       ];
     };
 
-    deploy.nodes.ajg-vps = {
-        hostname = "37.27.92.36";
+    deploy.nodes.ajg-vps-cax = {
+        hostname = "91.98.218.123";
         profiles.system = {
           user = "root";
           sshUser = "root";
-          path = deploy-rs.lib.x86_64-linux.activate.nixos self.nixosConfigurations.ajg-vps;
+          # Target arch (aarch64): wrapper binary executes directly on remote node via SSH.
+          path = deploy-rs.lib.aarch64-linux.activate.nixos self.
+  nixosConfigurations.ajg-vps-cax;
           sshOpts = [ "-i" "/home/ajg/.ssh/id_ed25519_vps" ];
         };
+    };
+    apps.x86_64-linux = {
+      default = deploy-rs.apps.x86_64-linux.deploy-rs;
+      deploy-rs = deploy-rs.apps.x86_64-linux.deploy-rs;
     };
   };
 }
